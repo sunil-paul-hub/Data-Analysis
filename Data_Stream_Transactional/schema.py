@@ -2,6 +2,7 @@ import sqlite3
 from sqlite3 import Error
 from faker import Faker
 import random
+import os
 
 fake = Faker()
 

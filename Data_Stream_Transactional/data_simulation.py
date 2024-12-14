@@ -1,12 +1,11 @@
-import os
 import random
 import time
 import logging
 import threading
-from datetime import datetime
-from schema import create_connection, insert_fake_data
+import os
+from schema import create_connection
 
-# Ensure that the logs directory exists
+# Ensure the logs directory exists
 if not os.path.exists('logs'):
     os.makedirs('logs')
 
@@ -20,22 +19,29 @@ conn = create_connection(DB_PATH)
 def log_change(action, table, record_id):
     logging.info(f'{action} - Table: {table}, Record ID: {record_id}')
 
+# Function to delete random record for simulation
+def delete_random_record(conn):
+    tables = ['customer', 'sales', 'product', 'transactions', 'store', 'location']
+    table = random.choice(tables)
+    c = conn.cursor()
+    c.execute(f"DELETE FROM {table} WHERE rowid = (SELECT rowid FROM {table} ORDER BY RANDOM() LIMIT 1)")
+    conn.commit()
+    log_change('Delete', table, 'Random')
+
 # Function to simulate data changes (insert, update, delete)
 def simulate_data_changes():
     while True:
         action = random.choice(['insert', 'update', 'delete'])
         table = random.choice(['customer', 'sales', 'product', 'transactions', 'store', 'location'])
         
-        # Perform Insert
         if action == 'insert':
             log_change('Insert', table, random.randint(1, 1000))
 
-        # Perform Update
         elif action == 'update':
             log_change('Update', table, random.randint(1, 1000))
 
-        # Perform Delete
         elif action == 'delete':
+            delete_random_record(conn)
             log_change('Delete', table, random.randint(1, 1000))
 
         time.sleep(60)  # simulate data changes every minute

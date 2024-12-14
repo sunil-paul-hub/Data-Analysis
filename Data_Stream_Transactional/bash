@@ -1,8 +1,10 @@
 /python-docker-flask-app
 │
-├── app.py           # Main Flask application file
-├── Dockerfile       # Docker file to build the container
-├── requirements.txt # List of Python dependencies
-├── schema.py        # Contains functions to create tables, insert fake data, etc.
-├── data_simulation.py # Functions to simulate data changes
-└── logs/            # Folder to store log files
+├── app.py                # Main Flask application file
+├── Dockerfile            # Docker file to build the container
+├── requirements.txt      # List of Python dependencies
+├── schema.py             # Database schema creation and data insertion functions
+├── data_simulation.py    # Functions for data simulation and logging
+├── logs/                 # Folder to store log files (created at runtime)
+└── templates/            # Folder for HTML files (used for the index page)
+    └── index.html        # HTML file for the index page
