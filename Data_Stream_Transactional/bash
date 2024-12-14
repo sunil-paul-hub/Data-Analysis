@@ -1,5 +1,3 @@
-/python-docker-flask-app
-│
 ├── app.py                # Main Flask application file
 ├── Dockerfile            # Docker file to build the container
 ├── requirements.txt      # List of Python dependencies
