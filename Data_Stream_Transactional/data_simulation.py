@@ -1,9 +1,14 @@
+import os
 import threading
 import time
 import random
 from schema import db, Customer, Sales, Product, Transactions, Store, Location
 import logging
 
+# Ensure the 'logs' directory exists
+if not os.path.exists('logs'):
+    os.makedirs('logs')
+    
 # Setup logging
 logging.basicConfig(filename='logs/data_simulation.log', level=logging.INFO)
 
