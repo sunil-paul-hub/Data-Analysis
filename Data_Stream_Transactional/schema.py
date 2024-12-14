@@ -1,65 +1,64 @@
-from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import relationship, sessionmaker
 import random
-from faker import Faker
+import logging
 
-db = SQLAlchemy()
-fake = Faker()
+Base = declarative_base()
 
-# Database Models
+# Define the database models (tables)
+class Customer(Base):
+    __tablename__ = 'customers'
+    customer_id = Column(Integer, primary_key=True)
+    name = Column(String)
 
-class Customer(db.Model):
-    customer_id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100))
+class Sales(Base):
+    __tablename__ = 'sales'
+    receipt_id = Column(Integer, primary_key=True)
+    amount = Column(Integer)
 
-class Sales(db.Model):
-    receipt_id = db.Column(db.Integer, primary_key=True)
-    customer_id = db.Column(db.Integer, db.ForeignKey('customer.customer_id'))
-    amount = db.Column(db.Float)
+class Product(Base):
+    __tablename__ = 'products'
+    product_id = Column(Integer, primary_key=True)
+    name = Column(String)
 
-class Product(db.Model):
-    product_id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100))
+class Transactions(Base):
+    __tablename__ = 'transactions'
+    transaction_id = Column(Integer, primary_key=True)
+    amount = Column(Integer)
 
-class Transactions(db.Model):
-    transaction_id = db.Column(db.Integer, primary_key=True)
-    product_id = db.Column(db.Integer, db.ForeignKey('product.product_id'))
-    amount = db.Column(db.Float)
+class Store(Base):
+    __tablename__ = 'stores'
+    store_id = Column(Integer, primary_key=True)
+    name = Column(String)
 
-class Store(db.Model):
-    store_id = db.Column(db.Integer, primary_key=True)
-    location_id = db.Column(db.Integer, db.ForeignKey('location.location_id'))
+class Location(Base):
+    __tablename__ = 'locations'
+    location_id = Column(Integer, primary_key=True)
+    name = Column(String)
 
-class Location(db.Model):
-    location_id = db.Column(db.Integer, primary_key=True)
-    city = db.Column(db.String(100))
+# Set up the database connection
+DATABASE_URL = "sqlite:///mydatabase.db"  # Change this for your actual DB
+engine = create_engine(DATABASE_URL)
+Session = sessionmaker(bind=engine)
+session = Session()
 
-# Database Initialization
-def init_db():
-    db.create_all()
+# Function to create tables
+def create_tables():
+    Base.metadata.create_all(engine)
 
 # Function to insert fake data
 def insert_fake_data():
-    for _ in range(10):
-        customer = Customer(name=fake.name())
-        db.session.add(customer)
-        db.session.commit()
+    customers = [Customer(customer_id=i, name=f"Customer {i}") for i in range(1, 6)]
+    sales = [Sales(receipt_id=i, amount=random.randint(10, 500)) for i in range(1, 6)]
+    products = [Product(product_id=i, name=f"Product {i}") for i in range(1, 6)]
+    transactions = [Transactions(transaction_id=i, amount=random.randint(10, 500)) for i in range(1, 6)]
+    stores = [Store(store_id=i, name=f"Store {i}") for i in range(1, 6)]
+    locations = [Location(location_id=i, name=f"Location {i}") for i in range(1, 6)]
 
-        sales = Sales(receipt_id=random.randint(1, 1000), customer_id=customer.customer_id, amount=random.uniform(10.0, 500.0))
-        db.session.add(sales)
-        db.session.commit()
+    session.add_all(customers + sales + products + transactions + stores + locations)
+    session.commit()
 
-        product = Product(name=fake.word())
-        db.session.add(product)
-        db.session.commit()
-
-        transaction = Transactions(product_id=product.product_id, amount=random.uniform(1.0, 100.0))
-        db.session.add(transaction)
-        db.session.commit()
-
-        location = Location(city=fake.city())
-        db.session.add(location)
-        db.session.commit()
-
-        store = Store(location_id=location.location_id)
-        db.session.add(store)
-        db.session.commit()
+def log_changes(action, table_name, record_id):
+    logging.basicConfig(filename='logs/app.log', level=logging.INFO)
+    logging.info(f'{action} on {table_name}: {record_id}')

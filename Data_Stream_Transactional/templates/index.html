@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask Database Simulation</title>
+    <title>Database Stats</title>
 </head>
 <body>
-    <h1>Database Statistics</h1>
-    <ul>
-        <li>Customers: {{ customers_count }}</li>
-        <li>Sales: {{ sales_count }}</li>
-        <li>Products: {{ product_count }}</li>
-        <li>Transactions: {{ transaction_count }}</li>
-        <li>Stores: {{ store_count }}</li>
-        <li>Locations: {{ location_count }}</li>
-    </ul>
+    <h1>Database Stats</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Table</th>
+                <th>Record Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for table, count in stats.items() %}
+            <tr>
+                <td>{{ table }}</td>
+                <td>{{ count }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 </body>
 </html>

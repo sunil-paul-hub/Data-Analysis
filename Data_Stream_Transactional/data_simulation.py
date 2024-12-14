@@ -1,53 +1,50 @@
-import os
-import threading
-import time
 import random
-from schema import db, Customer, Sales, Product, Transactions, Store, Location
-import logging
+from schema import session, Customer, Sales, Product, Transactions, Store, Location, log_changes
 
-# Ensure the 'logs' directory exists
-if not os.path.exists('logs'):
-    os.makedirs('logs')
-    
-# Setup logging
-logging.basicConfig(filename='logs/data_simulation.log', level=logging.INFO)
-
-def log_change(action, table, record_id):
-    logging.info(f"Action: {action}, Table: {table}, Record ID: {record_id}, Time: {time.ctime()}")
-
-# Function to simulate data changes (insert, update, delete)
+# Simulate data changes (insert, update, delete)
 def simulate_data_changes():
-    while True:
-        action = random.choice(['insert', 'update', 'delete'])
-        table = random.choice([Customer, Sales, Product, Transactions, Store, Location])
+    # Choose a random table
+    table = random.choice([Customer, Sales, Product, Transactions, Store, Location])
+    action = random.choice(['insert', 'update', 'delete'])
 
-        if action == 'insert':
-            # Insert random data
-            record = table(name="Random " + str(random.randint(1000, 9999))) if table == Customer else table()
-            db.session.add(record)
-            db.session.commit()
-            log_change('insert', table.__name__, record.id)
+    if action == 'insert':
+        insert_random_data(table)
+    elif action == 'update':
+        update_random_data(table)
+    elif action == 'delete':
+        delete_random_data(table)
 
-        elif action == 'update':
-            # Update random record
-            record = table.query.first()
-            if record:
-                record.name = "Updated " + str(random.randint(1000, 9999))
-                db.session.commit()
-                log_change('update', table.__name__, record.id)
+def insert_random_data(table):
+    # Insert fake data
+    if table == Customer:
+        record = Customer(customer_id=random.randint(1000, 9999), name=f"New Customer {random.randint(1, 100)}")
+    elif table == Sales:
+        record = Sales(receipt_id=random.randint(1000, 9999), amount=random.randint(10, 500))
+    elif table == Product:
+        record = Product(product_id=random.randint(1000, 9999), name=f"New Product {random.randint(1, 100)}")
+    elif table == Transactions:
+        record = Transactions(transaction_id=random.randint(1000, 9999), amount=random.randint(10, 500))
+    elif table == Store:
+        record = Store(store_id=random.randint(1000, 9999), name=f"New Store {random.randint(1, 100)}")
+    elif table == Location:
+        record = Location(location_id=random.randint(1000, 9999), name=f"New Location {random.randint(1, 100)}")
 
-        elif action == 'delete':
-            # Delete random record
-            record = table.query.first()
-            if record:
-                db.session.delete(record)
-                db.session.commit()
-                log_change('delete', table.__name__, record.id)
+    session.add(record)
+    session.commit()
+    log_changes('insert', table.__tablename__, record.__dict__.get('customer_id', record.__dict__.get('receipt_id', 'unknown')))
 
-        time.sleep(60)  # Wait for 1 minute
+def update_random_data(table):
+    # Update a random record
+    record = session.query(table).order_by(random.choice([Customer.customer_id, Sales.receipt_id])).first()
+    if record:
+        record.name = f"Updated {record.name}" if hasattr(record, 'name') else record.name
+        session.commit()
+        log_changes('update', table.__tablename__, record.__dict__.get('customer_id', record.__dict__.get('receipt_id', 'unknown')))
 
-# Run the data simulation in a background thread
-def start_simulation_thread():
-    simulation_thread = threading.Thread(target=simulate_data_changes)
-    simulation_thread.daemon = True  # Allow thread to exit when main program exits
-    simulation_thread.start()
+def delete_random_data(table):
+    # Delete a random record
+    record = session.query(table).order_by(random.choice([Customer.customer_id, Sales.receipt_id])).first()
+    if record:
+        session.delete(record)
+        session.commit()
+        log_changes('delete', table.__tablename__, record.__dict__.get('customer_id', record.__dict__.get('receipt_id', 'unknown')))

@@ -1,32 +1,17 @@
-# Start with the official Python base image
-FROM python:3.9-slim
+# Use the official Python image
+FROM python:3.10-slim
 
-# Set the working directory in the container
+# Set the working directory
 WORKDIR /app
 
-# Create logs directory
-RUN mkdir -p /app/logs
+# Copy the application files to the container
+COPY . /app
 
-# Install system dependencies for psycopg2-binary
-RUN apt-get update \
-    && apt-get install -y libpq-dev build-essential \
-    && rm -rf /var/lib/apt/lists/*
-
-# Copy the requirements file into the container
-COPY requirements.txt .
-
-# Install the Python dependencies
+# Install the dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application code into the container
-COPY . .
-
-# Expose the port that the app will run on
+# Expose the port Flask app runs on
 EXPOSE 5000
 
-# Set environment variables
-ENV FLASK_APP=app.py
-ENV FLASK_ENV=development
-
-# Run the Flask app
-CMD ["flask", "run", "--host=0.0.0.0"]
+# Run the Flask application
+CMD ["python", "app.py"]
