@@ -9,6 +9,9 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
+# Create the logs directory
+RUN mkdir -p /app/logs
+
 # Copy the application files to the container
 COPY . .
 

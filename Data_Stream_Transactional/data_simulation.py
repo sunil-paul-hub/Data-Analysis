@@ -1,9 +1,14 @@
+import os
 import random
 import time
 import logging
 import threading
 from datetime import datetime
 from schema import create_connection, insert_fake_data
+
+# Ensure that the logs directory exists
+if not os.path.exists('logs'):
+    os.makedirs('logs')
 
 logging.basicConfig(filename='logs/app.log', level=logging.INFO, 
                     format='%(asctime)s - %(message)s')
