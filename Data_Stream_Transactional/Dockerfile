@@ -8,6 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install required dependencies
+RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose the Flask app port
