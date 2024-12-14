@@ -7,21 +7,11 @@
 </head>
 <body>
     <h1>Database Stats</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Table</th>
-                <th>Record Count</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for table, count in stats.items() %}
-            <tr>
-                <td>{{ table }}</td>
-                <td>{{ count }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <p>Customers: {{ customers }}</p>
+    <p>Products: {{ products }}</p>
+    <p>Stores: {{ stores }}</p>
+    <p>Locations: {{ locations }}</p>
+    <p>Sales: {{ sales }}</p>
+    <p>Transactions: {{ transactions }}</p>
 </body>
 </html>

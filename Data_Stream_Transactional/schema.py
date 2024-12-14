@@ -1,64 +1,63 @@
-from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship, sessionmaker
+from flask_sqlalchemy import SQLAlchemy
 import random
-import logging
+from faker import Faker
 
-Base = declarative_base()
+db = SQLAlchemy()
 
-# Define the database models (tables)
-class Customer(Base):
-    __tablename__ = 'customers'
-    customer_id = Column(Integer, primary_key=True)
-    name = Column(String)
+class Customer(db.Model):
+    customer_id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100))
 
-class Sales(Base):
-    __tablename__ = 'sales'
-    receipt_id = Column(Integer, primary_key=True)
-    amount = Column(Integer)
+class Product(db.Model):
+    product_id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100))
 
-class Product(Base):
-    __tablename__ = 'products'
-    product_id = Column(Integer, primary_key=True)
-    name = Column(String)
+class Store(db.Model):
+    store_id = db.Column(db.Integer, primary_key=True)
+    location_id = db.Column(db.Integer)
 
-class Transactions(Base):
-    __tablename__ = 'transactions'
-    transaction_id = Column(Integer, primary_key=True)
-    amount = Column(Integer)
+class Location(db.Model):
+    location_id = db.Column(db.Integer, primary_key=True)
+    address = db.Column(db.String(100))
 
-class Store(Base):
-    __tablename__ = 'stores'
-    store_id = Column(Integer, primary_key=True)
-    name = Column(String)
+class Sales(db.Model):
+    receipt_id = db.Column(db.Integer, primary_key=True)
+    amount = db.Column(db.Float)
+    product_id = db.Column(db.Integer, db.ForeignKey('product.product_id'))
+    product = db.relationship('Product', backref='sales')
 
-class Location(Base):
-    __tablename__ = 'locations'
-    location_id = Column(Integer, primary_key=True)
-    name = Column(String)
+class Transaction(db.Model):
+    transaction_id = db.Column(db.Integer, primary_key=True)
+    customer_id = db.Column(db.Integer, db.ForeignKey('customer.customer_id'))
+    store_id = db.Column(db.Integer, db.ForeignKey('store.store_id'))
+    amount = db.Column(db.Float)
 
-# Set up the database connection
-DATABASE_URL = "sqlite:///mydatabase.db"  # Change this for your actual DB
-engine = create_engine(DATABASE_URL)
-Session = sessionmaker(bind=engine)
-session = Session()
-
-# Function to create tables
-def create_tables():
-    Base.metadata.create_all(engine)
+# Function to initialize the database
+def init_db():
+    db.create_all()
 
 # Function to insert fake data
 def insert_fake_data():
-    customers = [Customer(customer_id=i, name=f"Customer {i}") for i in range(1, 6)]
-    sales = [Sales(receipt_id=i, amount=random.randint(10, 500)) for i in range(1, 6)]
-    products = [Product(product_id=i, name=f"Product {i}") for i in range(1, 6)]
-    transactions = [Transactions(transaction_id=i, amount=random.randint(10, 500)) for i in range(1, 6)]
-    stores = [Store(store_id=i, name=f"Store {i}") for i in range(1, 6)]
-    locations = [Location(location_id=i, name=f"Location {i}") for i in range(1, 6)]
-
-    session.add_all(customers + sales + products + transactions + stores + locations)
-    session.commit()
-
-def log_changes(action, table_name, record_id):
-    logging.basicConfig(filename='logs/app.log', level=logging.INFO)
-    logging.info(f'{action} on {table_name}: {record_id}')
+    fake = Faker()
+    for _ in range(10):
+        customer = Customer(name=fake.name())
+        product = Product(name=fake.word())
+        store = Store(location_id=random.randint(1, 5))
+        location = Location(address=fake.address())
+        transaction = Transaction(
+            customer_id=random.randint(1, 10),
+            store_id=random.randint(1, 10),
+            amount=random.uniform(10, 100)
+        )
+        sales = Sales(
+            receipt_id=random.randint(1, 100),
+            amount=random.uniform(10, 100),
+            product_id=random.randint(1, 10)
+        )
+        db.session.add(customer)
+        db.session.add(product)
+        db.session.add(store)
+        db.session.add(location)
+        db.session.add(transaction)
+        db.session.add(sales)
+    db.session.commit()

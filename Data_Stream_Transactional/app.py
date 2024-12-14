@@ -1,77 +1,52 @@
-from flask import Flask, render_template, jsonify
-from threading import Thread
-import time
-from data_simulation import simulate_data_changes
-from schema import create_tables, insert_fake_data, log_changes
+from flask import Flask, jsonify, render_template
+from schema import db, init_db, insert_fake_data
+from data_simulation import run_data_simulation
+import os
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db.init_app(app)
 
-# Run the background data simulation every minute
-def background_task():
-    while True:
-        simulate_data_changes()
-        time.sleep(60)  # Sleep for 1 minute
 
-# Initialize DB and log system
-create_tables()
-insert_fake_data()
+# Initialize the database
+@app.before_request
+def before_request():
+    # Check if the database exists and initialize it if needed
+    if not os.path.exists('app.db'):
+        init_db()  # Create the database and tables
+        insert_fake_data()  # Populate it with some initial data
+    # Start the background simulation if it hasn't started yet
+    if not hasattr(app, 'data_simulation_thread'):
+        run_data_simulation()  # Start the background thread for data simulation
+        app.data_simulation_thread = True
 
-# Start the background simulation thread
-thread = Thread(target=background_task)
-thread.daemon = True
-thread.start()
-
+# Home route to show index page with table stats
 @app.route('/')
 def index():
-    # Show index page with stats
-    return render_template('index.html', stats=get_db_stats())
+    customers = Customer.query.count()
+    products = Product.query.count()
+    stores = Store.query.count()
+    locations = Location.query.count()
+    sales = Sales.query.count()
+    transactions = Transaction.query.count()
 
-@app.route('/api/data', methods=['GET'])
-def get_data():
-    # Endpoint to get JSON data for the tables
+    return render_template('index.html', customers=customers, products=products,
+                           stores=stores, locations=locations, sales=sales, transactions=transactions)
+
+
+# API endpoint to get JSON dataset of all tables
+@app.route('/api/data')
+def api_data():
     data = {
-        'customers': get_customers(),
-        'sales': get_sales(),
-        'products': get_products(),
-        'transactions': get_transactions(),
-        'stores': get_stores(),
-        'locations': get_locations(),
+        "customers": [customer.name for customer in Customer.query.all()],
+        "products": [product.name for product in Product.query.all()],
+        "stores": [store.store_id for store in Store.query.all()],
+        "locations": [location.address for location in Location.query.all()],
+        "sales": [sale.amount for sale in Sales.query.all()],
+        "transactions": [transaction.amount for transaction in Transaction.query.all()]
     }
     return jsonify(data)
-
-def get_db_stats():
-    # Return stats for the index page (could be row counts or other metrics)
-    return {
-        'customers': count_rows('customers'),
-        'sales': count_rows('sales'),
-        'products': count_rows('products'),
-        'transactions': count_rows('transactions'),
-        'stores': count_rows('stores'),
-        'locations': count_rows('locations'),
-    }
-
-# Database interaction functions
-def count_rows(table_name):
-    # Helper function to count rows in a table
-    pass
-
-def get_customers():
-    pass
-
-def get_sales():
-    pass
-
-def get_products():
-    pass
-
-def get_transactions():
-    pass
-
-def get_stores():
-    pass
-
-def get_locations():
-    pass
 
 if __name__ == '__main__':
     app.run(debug=True)
