@@ -1,85 +1,149 @@
 import sqlite3
-from sqlite3 import Error
-from faker import Faker
 import random
-import os
+import time
+import logging
+from datetime import datetime
 
-fake = Faker()
+# Set up logging to file
+logging.basicConfig(filename='logs/app.log', level=logging.INFO)
 
-# Function to connect to SQLite database (or create it)
-def create_connection(db_file):
-    conn = None
+# Function to connect to SQLite database (allowing multi-threading)
+def create_connection(db_file="app.db"):
     try:
         conn = sqlite3.connect(db_file, check_same_thread=False)
-    except Error as e:
-        print(e)
-    return conn
+        return conn
+    except sqlite3.Error as e:
+        logging.error(f"Error creating connection: {e}")
+        return None
 
-# Function to create tables
+# Create tables in the database
 def create_tables(conn):
-    try:
-        c = conn.cursor()
-        c.execute('''CREATE TABLE IF NOT EXISTS customer (
-                        customer_id INTEGER PRIMARY KEY,
-                        name TEXT NOT NULL,
-                        email TEXT
-                    )''')
-        
-        c.execute('''CREATE TABLE IF NOT EXISTS sales (
-                        receipt_id INTEGER PRIMARY KEY,
-                        customer_id INTEGER,
-                        store_id INTEGER,
-                        total DECIMAL(10, 2),
-                        FOREIGN KEY (customer_id) REFERENCES customer(customer_id),
-                        FOREIGN KEY (store_id) REFERENCES store(store_id)
-                    )''')
-
-        c.execute('''CREATE TABLE IF NOT EXISTS product (
-                        product_id INTEGER PRIMARY KEY,
-                        name TEXT NOT NULL,
-                        price DECIMAL(10, 2)
-                    )''')
-
-        c.execute('''CREATE TABLE IF NOT EXISTS transactions (
-                        transaction_id INTEGER PRIMARY KEY,
-                        product_id INTEGER,
-                        sale_id INTEGER,
-                        quantity INTEGER,
-                        FOREIGN KEY (product_id) REFERENCES product(product_id),
-                        FOREIGN KEY (sale_id) REFERENCES sales(receipt_id)
-                    )''')
-
-        c.execute('''CREATE TABLE IF NOT EXISTS store (
-                        store_id INTEGER PRIMARY KEY,
-                        store_name TEXT NOT NULL,
-                        location_id INTEGER
-                    )''')
-
-        c.execute('''CREATE TABLE IF NOT EXISTS location (
-                        location_id INTEGER PRIMARY KEY,
-                        address TEXT
-                    )''')
-
-        conn.commit()
-    except Error as e:
-        print(e)
-
-# Function to insert fake data with randomness (duplicates, missing data, junk)
-def insert_fake_data(conn):
-    c = conn.cursor()
-    # Insert fake customers
-    for _ in range(10):
-        c.execute("INSERT INTO customer (name, email) VALUES (?, ?)", 
-                  (fake.name(), fake.email()))
-
-    # Insert fake stores
-    for _ in range(5):
-        c.execute("INSERT INTO store (store_name, location_id) VALUES (?, ?)", 
-                  (fake.company(), random.randint(1, 5)))
-
-    # Insert fake products
-    for _ in range(20):
-        c.execute("INSERT INTO product (name, price) VALUES (?, ?)", 
-                  (fake.word(), round(random.uniform(1, 100), 2)))
-
+    cursor = conn.cursor()
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS customer (
+        customer_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        email TEXT
+    );
+    """)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS sales (
+        receipt_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        customer_id INTEGER,
+        amount REAL,
+        FOREIGN KEY(customer_id) REFERENCES customer(customer_id)
+    );
+    """)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS product (
+        product_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        price REAL
+    );
+    """)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS transactions (
+        transaction_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        receipt_id INTEGER,
+        product_id INTEGER,
+        quantity INTEGER,
+        FOREIGN KEY(receipt_id) REFERENCES sales(receipt_id),
+        FOREIGN KEY(product_id) REFERENCES product(product_id)
+    );
+    """)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS store (
+        store_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT
+    );
+    """)
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS location (
+        location_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        store_id INTEGER,
+        address TEXT,
+        FOREIGN KEY(store_id) REFERENCES store(store_id)
+    );
+    """)
     conn.commit()
+
+# Insert fake data with randomness
+def insert_fake_data(conn):
+    cursor = conn.cursor()
+    customers = ["Alice", "Bob", "Charlie", "David", "Eva"]
+    products = ["Product A", "Product B", "Product C", "Product D"]
+    stores = ["Store 1", "Store 2", "Store 3"]
+
+    customer_name = random.choice(customers)
+    cursor.execute("INSERT INTO customer (name, email) VALUES (?, ?)", (customer_name, f"{customer_name.lower()}@example.com"))
+    customer_id = cursor.lastrowid
+
+    product_name = random.choice(products)
+    cursor.execute("INSERT INTO product (name, price) VALUES (?, ?)", (product_name, random.uniform(5, 100)))
+    product_id = cursor.lastrowid
+
+    cursor.execute("INSERT INTO store (name) VALUES (?)", (random.choice(stores),))
+    store_id = cursor.lastrowid
+
+    cursor.execute("INSERT INTO location (store_id, address) VALUES (?, ?)", (store_id, f"Address {random.randint(1, 100)}"))
+    
+    # Simulate sales and transactions
+    cursor.execute("INSERT INTO sales (customer_id, amount) VALUES (?, ?)", (customer_id, random.uniform(20, 200)))
+    receipt_id = cursor.lastrowid
+    cursor.execute("INSERT INTO transactions (receipt_id, product_id, quantity) VALUES (?, ?, ?)", 
+                   (receipt_id, product_id, random.randint(1, 5)))
+    
+    conn.commit()
+
+# Log changes (insert, update, delete)
+def log_change(action, table, record_id):
+    logging.info(f"{datetime.now()} - {action} {table} with ID {record_id}")
+
+# Function to delete a random record (for simulation of delete actions)
+def delete_random_record(conn):
+    cursor = conn.cursor()
+    tables = ['customer', 'sales', 'product', 'transactions', 'store', 'location']
+    table = random.choice(tables)
+    cursor.execute(f"SELECT rowid FROM {table} ORDER BY RANDOM() LIMIT 1")
+    row = cursor.fetchone()
+    
+    if row:
+        row_id = row[0]
+        cursor.execute(f"DELETE FROM {table} WHERE rowid = ?", (row_id,))
+        conn.commit()
+        log_change("DELETE", table, row_id)
+
+# Simulate data changes (insert, update, delete) every minute
+def simulate_data_changes(conn):
+    while True:
+        action = random.choice(['insert', 'update', 'delete'])
+        if action == 'insert':
+            insert_fake_data(conn)
+            log_change("INSERT", "various", "N/A")
+        elif action == 'update':
+            # You can add an update simulation here
+            pass
+        elif action == 'delete':
+            delete_random_record(conn)
+        time.sleep(60)  # Simulate data changes every minute
+
+# Function to get row count for each table
+def get_table_stats(conn):
+    cursor = conn.cursor()
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    tables = cursor.fetchall()
+    stats = {}
+    for table in tables:
+        table_name = table[0]
+        cursor.execute(f"SELECT COUNT(*) FROM {table_name}")
+        count = cursor.fetchone()[0]
+        stats[table_name] = count
+    return stats
+
+# Function to get data from any table in JSON format
+def get_table_data(conn, table_name):
+    cursor = conn.cursor()
+    cursor.execute(f"SELECT * FROM {table_name}")
+    rows = cursor.fetchall()
+    columns = [description[0] for description in cursor.description]
+    return [dict(zip(columns, row)) for row in rows]
