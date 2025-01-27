@@ -3,7 +3,7 @@
 1,RM302,18-25,No,Travel-Rarely,Sales,Med,Female,Sales-Rep,Single,Upto 5k,No,18,812,10,3,4,69,2,1,3,1200,9724,1,12,3,1,0,0,2,3,0,0,0,0.0,0
 2,RM458,18-25,Yes,Travel-Freq,Sales,Mktg,Male,Sales-Rep,Single,Upto 5k,Yes,18,1306,5,3,2,69,3,1,2,1878,8059,1,14,3,4,0,0,3,3,0,0,0,0.0,1
 3,RM728,18-25,No,Non-Travel,R&D,Life-Sci,Male,Res-Sci,Single,Upto 5k,No,18,287,5,2,2,73,3,1,4,1051,13493,1,15,3,4,0,0,2,3,0,0,0,0.0,0
-4,RM829,18-25,Yes,Non-Travel,R&D,Med,Male,Lab-Tech,Single,Upto 5k,No,18,247,8,1,3,80,3,1,3,1904,13556,1,12,3,4,0,0,0,3,0,0,0,0.0,1
+4,RM829,18-25,Yes,Non-Travel,R&D,Med,Male,Lab-Tech,Single,Upto 5k,No,18,247,8,1,3,80,3,1,3,1904,13556,1,12,3,4,0,0,0,3,0,0,0,0.0,0
 5,RM973,18-25,No,Non-Travel,R&D,Life-Sci,Female,Lab-Tech,Single,Upto 5k,No,18,1124,1,3,4,97,3,1,4,1611,19305,1,15,3,3,0,0,5,4,0,0,0,0.0,0
 6,RM1154,18-25,Yes,Travel-Freq,Sales,Med,Female,Sales-Rep,Single,Upto 5k,Yes,18,544,3,2,2,70,3,1,4,1569,18420,1,12,3,3,0,0,2,4,0,0,0,0.0,1
 7,RM1312,18-25,No,Non-Travel,R&D,Med,Female,Res-Sci,Single,Upto 5k,No,18,1431,14,3,2,33,3,1,3,1514,8018,1,16,3,3,0,0,4,1,0,0,0,0.0,0
@@ -13,7 +13,7 @@
 11,RM178,18-25,Yes,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Single,Upto 5k,No,19,303,2,3,2,47,2,1,4,1102,9241,1,22,4,3,0,1,3,2,1,0,1,0.0,1
 12,RM423,18-25,Yes,Travel-Rarely,HR,Tech-Deg,Male,HR,Single,Upto 5k,No,19,489,2,2,1,52,2,1,4,2564,18437,1,12,3,3,0,1,3,4,1,0,0,0.0,1
 13,RM689,18-25,Yes,Travel-Rarely,Sales,Other,Male,Sales-Rep,Single,Upto 5k,Yes,19,419,21,3,4,37,2,1,2,2121,9947,1,13,3,2,0,1,3,4,1,0,0,0.0,1
-14,RM854,18-25,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Single,Upto 5k,No,19,645,9,2,3,54,3,1,1,2552,7172,1,25,4,3,0,1,4,3,1,1,0,0.0,0
+14,RM854,18-25,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Single,Upto 5k,No,19,645,9,2,3,54,3,1,1,2552,7172,1,25,4,3,0,1,4,3,1,1,0,0.0,1
 15,RM893,18-25,Yes,Non-Travel,R&D,Med,Female,Res-Sci,Single,Upto 5k,Yes,19,504,10,3,1,96,2,1,2,1859,6148,1,25,4,2,0,1,2,4,1,1,0,0.0,1
 16,RM910,18-25,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Single,Upto 5k,Yes,19,265,25,3,2,57,4,1,4,2994,21221,1,12,3,4,0,1,2,3,1,0,0,1.0,0
 17,RM103,18-25,Yes,Travel-Freq,R&D,Life-Sci,Female,Lab-Tech,Single,Upto 5k,Yes,20,871,6,3,4,66,2,1,4,2926,19783,1,18,3,2,0,1,5,3,1,0,1,0.0,1
@@ -31,7 +31,7 @@
 29,RM275,18-25,No,Travel-Rarely,R&D,Med,Male,Res-Sci,Single,Upto 5k,No,21,996,3,2,4,100,2,1,3,3230,10531,1,17,3,1,0,3,4,4,3,2,1,0.0,0
 30,RM358,18-25,Yes,Travel-Freq,Sales,Tech-Deg,Female,Sales-Rep,Single,Upto 5k,Yes,21,756,1,1,1,99,2,1,2,2174,9150,1,11,3,3,0,3,3,3,3,2,1,2.0,1
 31,RM363,18-25,No,Non-Travel,Sales,Med,Male,Sales-Rep,Single,Upto 5k,No,21,895,9,2,1,39,3,1,4,2610,2851,1,24,4,3,0,3,3,2,3,2,2,4.118060435699227,0
-32,RM371,18-25,Yes,Travel-Rarely,Sales,Life-Sci,Female,Sales-Rep,Single,Upto 5k,No,21,156,12,3,3,90,4,1,2,2716,25422,1,15,3,4,0,1,0,3,1,0,0,0.0,0
+32,RM371,18-25,Yes,Travel-Rarely,Sales,Life-Sci,Female,Sales-Rep,Single,Upto 5k,No,21,156,12,3,3,90,4,1,2,2716,25422,1,15,3,4,0,1,0,3,1,0,0,0.0,1
 33,RM497,18-25,No,Travel-Rarely,Sales,Tech-Deg,Male,Sales-Rep,Single,Upto 5k,No,21,1343,22,1,3,49,3,1,3,3447,24444,1,11,3,3,0,3,2,3,3,2,1,2.0,0
 34,RM664,18-25,Yes,Travel-Rarely,R&D,Other,Female,Res-Sci,Single,Upto 5k,No,21,1427,18,1,4,65,3,1,4,2693,8870,1,19,3,1,0,1,3,2,1,0,0,0.0,0
 35,RM778,18-25,Yes,Travel-Rarely,R&D,Life-Sci,Female,Lab-Tech,Single,Upto 5k,No,21,1334,10,3,3,36,2,1,1,1416,17258,1,13,3,1,0,1,6,2,1,0,1,0.0,1
@@ -39,7 +39,7 @@
 37,RM916,18-25,Yes,Travel-Freq,R&D,Life-Sci,Female,Lab-Tech,Single,Upto 5k,No,21,251,10,2,1,45,2,1,3,2625,25308,1,20,4,3,0,2,2,1,2,2,2,2.0,1
 38,RM1153,18-25,No,Travel-Rarely,R&D,Med,Male,Res-Sci,Single,Upto 5k,No,21,546,5,1,3,97,3,1,4,3117,26009,1,18,3,3,0,3,2,3,2,2,2,2.0,0
 39,RM1272,18-25,Yes,Travel-Rarely,Sales,Mktg,Male,Sales-Rep,Single,Upto 5k,No,21,337,7,1,2,31,3,1,2,2679,4567,1,13,3,2,0,1,3,3,1,0,1,0.0,1
-40,RM1437,18-25,No,Travel-Rarely,Sales,Med,Male,Sales-Rep,Single,Upto 5k,Yes,21,501,5,1,3,58,3,1,1,2380,25479,1,11,3,4,0,2,6,3,2,2,1,2.0,1
+40,RM1437,18-25,No,Travel-Rarely,Sales,Med,Male,Sales-Rep,Single,Upto 5k,Yes,21,501,5,1,3,58,3,1,1,2380,25479,1,11,3,4,0,2,6,3,2,2,1,2.0,0
 41,RM018,18-25,No,Non-Travel,R&D,Med,Male,Lab-Tech,Divorced,Upto 5k,Yes,22,1123,16,2,4,96,4,1,4,2935,7324,1,13,3,2,2,1,2,2,1,0,0,0.0,0
 42,RM110,18-25,No,Travel-Rarely,R&D,Med,Female,Lab-Tech,Single,Upto 5k,No,22,534,15,3,2,59,3,1,4,2871,23785,1,15,3,3,0,1,5,3,0,0,0,0.0,0
 43,RM129,18-25,No,Travel-Rarely,R&D,Tech-Deg,Male,Lab-Tech,Married,Upto 5k,No,22,594,2,1,3,100,3,1,4,2523,19299,0,14,3,3,1,3,2,3,2,1,2,1.0,0
@@ -65,13 +65,13 @@
 63,RM911,18-25,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Married,Upto 5k,No,23,373,1,2,4,47,3,1,3,1223,16901,1,22,4,4,1,1,2,3,1,0,0,1.0,0
 64,RM1083,18-25,No,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Single,Upto 5k,No,23,507,20,1,1,97,3,2,3,2272,24812,0,14,3,2,0,5,2,3,4,3,1,2.0,0
 65,RM1128,18-25,No,Travel-Rarely,R&D,Tech-Deg,Male,Res-Sci,Married,Upto 5k,No,23,977,10,3,4,45,4,1,3,2073,12826,2,16,3,4,1,4,2,3,2,2,2,2.0,0
-66,RM1202,18-25,Yes,Travel-Rarely,R&D,Med,Male,Lab-Tech,Single,Upto 5k,Yes,23,1320,8,1,4,93,2,1,3,3989,20586,1,11,3,1,0,5,2,3,5,4,1,2.0,1
-67,RM1214,18-25,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Rep,Divorced,Upto 5k,Yes,23,427,7,3,3,99,3,1,4,2275,25103,1,21,4,2,1,3,2,3,3,2,0,2.0,1
+66,RM1202,18-25,Yes,Travel-Rarely,R&D,Med,Male,Lab-Tech,Single,Upto 5k,Yes,23,1320,8,1,4,93,2,1,3,3989,20586,1,11,3,1,0,5,2,3,5,4,1,2.0,0
+67,RM1214,18-25,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Rep,Divorced,Upto 5k,Yes,23,427,7,3,3,99,3,1,4,2275,25103,1,21,4,2,1,3,2,3,3,2,0,2.0,0
 68,RM1239,18-25,No,Travel-Rarely,R&D,Med,Female,Lab-Tech,Single,Upto 5k,No,23,160,4,1,3,51,3,1,2,3295,12862,1,13,3,3,0,3,3,1,3,2,1,2.0,0
 69,RM1409,18-25,No,Travel-Rarely,R&D,Other,Male,Lab-Tech,Single,Upto 5k,No,23,571,12,2,4,78,3,1,4,2647,13672,1,13,3,3,0,5,6,4,5,2,1,4.0,0
 70,RM1439,18-25,Yes,Travel-Freq,Sales,Mktg,Male,Sales-Rep,Married,Upto 5k,No,23,638,9,3,4,33,3,1,1,1790,26956,1,19,3,1,1,1,3,2,1,0,1,0.0,1
 71,RM021,18-25,No,Non-Travel,R&D,Other,Female,Mfg-Dir,Divorced,Upto 5k,No,24,673,11,2,1,96,4,2,3,4011,8232,0,18,3,4,1,5,5,2,4,2,1,3.0,0
-72,RM035,18-25,Yes,Travel-Rarely,R&D,Med,Male,Res-Sci,Married,Upto 5k,Yes,24,813,1,3,2,61,3,1,4,2293,3020,2,16,3,1,1,6,2,2,2,0,2,0.0,0
+72,RM035,18-25,Yes,Travel-Rarely,R&D,Med,Male,Res-Sci,Married,Upto 5k,Yes,24,813,1,3,2,61,3,1,4,2293,3020,2,16,3,1,1,6,2,2,2,0,2,0.0,1
 73,RM097,18-25,No,Travel-Rarely,Sales,Other,Female,Sales-Exec,Married,Upto 5k,No,24,1353,3,2,1,33,3,2,3,4999,17519,0,21,4,1,1,4,2,2,3,2,0,2.0,0
 74,RM114,18-25,No,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Married,Upto 5k,No,24,1127,18,1,2,52,3,1,3,2774,13257,0,12,3,3,1,6,2,3,5,3,1,2.0,0
 75,RM381,18-25,No,Travel-Rarely,Sales,Mktg,Female,Sales-Exec,Divorced,Upto 5k,Yes,24,1371,10,4,4,77,3,2,3,4260,5915,1,12,3,4,1,5,2,4,5,2,0,3.0,0
@@ -79,8 +79,8 @@
 77,RM471,18-25,No,Travel-Freq,Sales,Med,Male,Sales-Rep,Married,Upto 5k,No,24,535,24,3,4,38,3,1,4,2400,5530,0,13,3,3,2,3,3,3,2,2,2,1.0,0
 78,RM475,18-25,No,Travel-Rarely,R&D,Med,Male,Res-Sci,Married,Upto 5k,Yes,24,691,23,3,2,89,4,1,4,2725,21630,1,11,3,2,2,6,3,3,6,5,1,4.0,0
 79,RM477,18-25,No,Travel-Rarely,R&D,Other,Male,Lab-Tech,Married,Upto 5k,No,24,823,17,2,4,94,2,1,2,2127,9100,1,21,4,4,1,1,2,3,1,0,0,0.0,0
-80,RM480,18-25,Yes,Travel-Freq,R&D,Life-Sci,Female,Lab-Tech,Married,Upto 5k,Yes,24,1287,7,3,1,55,3,1,3,2886,14168,1,16,3,4,1,6,4,3,6,3,1,2.0,1
-81,RM526,18-25,Yes,Travel-Rarely,Sales,Life-Sci,Female,Sales-Exec,Single,Upto 5k,No,24,693,3,2,1,65,3,2,3,4577,24785,9,14,3,1,0,4,3,3,2,2,2,0.0,1
+80,RM480,18-25,Yes,Travel-Freq,R&D,Life-Sci,Female,Lab-Tech,Married,Upto 5k,Yes,24,1287,7,3,1,55,3,1,3,2886,14168,1,16,3,4,1,6,4,3,6,3,1,2.0,0
+81,RM526,18-25,Yes,Travel-Rarely,Sales,Life-Sci,Female,Sales-Exec,Single,Upto 5k,No,24,693,3,2,1,65,3,2,3,4577,24785,9,14,3,1,0,4,3,3,2,2,2,0.0,0
 82,RM587,18-25,No,Non-Travel,R&D,Life-Sci,Male,Lab-Tech,Divorced,Upto 5k,No,24,1092,9,3,3,60,2,1,2,2694,26551,1,11,3,3,3,1,4,3,1,0,0,0.0,0
 83,RM641,18-25,No,Non-Travel,R&D,Life-Sci,Male,Lab-Tech,Married,Upto 5k,No,24,1269,4,1,1,46,2,1,4,3162,10778,0,17,3,4,0,6,2,2,5,2,3,4.0,0
 84,RM725,18-25,No,Travel-Rarely,R&D,Med,Female,Mfg-Dir,Divorced,Upto 5k,No,24,1206,17,1,4,41,2,2,3,4377,24117,1,15,3,2,2,5,6,3,4,2,3,2.0,0
@@ -129,7 +129,7 @@
 127,RM279,26-35,No,Travel-Freq,R&D,Life-Sci,Female,Mfg-Dir,Divorced,5k-10k,No,26,1479,1,3,3,84,3,2,2,6397,26767,1,20,4,1,1,6,6,1,6,5,1,4.0,0
 128,RM285,26-35,No,Travel-Freq,R&D,Med,Male,Healthcare-Rep,Married,Upto 5k,Yes,26,496,11,2,1,60,3,2,1,4741,22722,1,13,3,3,1,5,3,3,5,3,3,3.0,0
 129,RM289,26-35,Yes,Travel-Rarely,R&D,Med,Male,Lab-Tech,Divorced,Upto 5k,Yes,26,1449,16,4,1,45,3,1,2,2373,14180,2,13,3,4,1,5,2,3,3,2,0,2.0,1
-130,RM294,26-35,Yes,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Single,5k-10k,Yes,26,950,4,4,4,48,2,2,4,5828,8450,1,12,3,2,0,8,0,3,8,7,7,4.0,0
+130,RM294,26-35,Yes,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Single,5k-10k,Yes,26,950,4,4,4,48,2,2,4,5828,8450,1,12,3,2,0,8,0,3,8,7,7,4.0,1
 131,RM356,26-35,No,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Married,5k-10k,No,26,933,1,3,3,57,3,2,3,5296,20156,1,17,3,2,1,8,3,3,8,7,7,7.0,0
 132,RM383,26-35,Yes,Travel-Freq,R&D,Tech-Deg,Male,Res-Sci,Single,Upto 5k,No,26,575,3,1,3,73,3,1,1,3102,6582,0,22,4,3,0,7,2,3,6,4,0,4.0,1
 133,RM419,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Divorced,Upto 5k,No,26,1349,23,3,1,90,3,1,4,2886,3032,1,22,4,2,2,3,3,1,3,2,0,2.0,0
@@ -147,7 +147,7 @@
 145,RM763,26-35,Yes,Travel-Freq,R&D,Life-Sci,Male,Res-Sci,Married,Upto 5k,Yes,26,342,2,3,1,57,3,1,1,2042,15346,6,14,3,2,1,6,2,3,3,2,1,2.0,1
 146,RM770,26-35,No,Travel-Freq,R&D,Med,Female,Res-Sci,Divorced,Upto 5k,No,26,921,1,1,1,66,2,1,3,2007,25265,1,13,3,3,2,5,5,3,5,3,1,3.0,0
 147,RM782,26-35,No,Travel-Rarely,R&D,Med,Male,Lab-Tech,Married,Upto 5k,No,26,192,1,2,1,59,2,1,1,3955,11141,1,16,3,1,2,6,2,3,5,3,1,3.0,0
-148,RM798,26-35,Yes,Travel-Rarely,R&D,Med,Male,Lab-Tech,Divorced,Upto 5k,No,26,1330,21,3,1,37,3,1,3,2377,19373,1,20,4,3,1,1,0,2,1,1,0,0.0,0
+148,RM798,26-35,Yes,Travel-Rarely,R&D,Med,Male,Lab-Tech,Divorced,Upto 5k,No,26,1330,21,3,1,37,3,1,3,2377,19373,1,20,4,3,1,1,0,2,1,1,0,0.0,1
 149,RM844,26-35,No,Travel-Rarely,R&D,Med,Male,Lab-Tech,Married,Upto 5k,No,26,1384,3,4,1,82,4,1,4,4420,13421,1,22,4,2,1,8,2,3,8,7,0,7.0,0
 150,RM913,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Single,Upto 5k,Yes,26,583,4,2,3,53,3,1,4,2875,9973,1,20,4,2,0,8,2,2,8,5,2,2.0,0
 151,RM999,26-35,No,Travel-Rarely,R&D,Med,Male,Res-Sci,Single,Upto 5k,No,26,683,2,1,1,36,2,1,4,3904,4050,0,12,3,4,0,5,2,3,4,3,1,1.0,0
@@ -155,7 +155,7 @@
 153,RM1119,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Married,Upto 5k,No,26,474,3,3,1,89,3,1,4,2061,11133,1,21,4,1,0,1,5,3,1,0,0,0.0,0
 154,RM1207,26-35,No,Non-Travel,R&D,Med,Male,Lab-Tech,Single,Upto 5k,No,26,786,7,3,4,76,3,1,4,2570,11925,1,20,4,3,0,7,5,3,7,7,5,7.0,0
 155,RM1225,26-35,No,Travel-Rarely,R&D,Med,Male,Lab-Tech,Married,Upto 5k,No,26,390,17,4,4,62,1,1,3,2305,6217,1,15,3,3,3,3,3,4,3,2,0,2.0,0
-156,RM1298,26-35,Yes,Travel-Rarely,HR,Med,Female,HR,Married,Upto 5k,Yes,26,920,20,2,4,69,3,1,2,2148,6889,0,11,3,3,0,6,3,3,5,1,1,4.0,1
+156,RM1298,26-35,Yes,Travel-Rarely,HR,Med,Female,HR,Married,Upto 5k,Yes,26,920,20,2,4,69,3,1,2,2148,6889,0,11,3,3,0,6,3,3,5,1,1,4.0,0
 157,RM1310,26-35,No,Travel-Rarely,Sales,Med,Male,Sales-Exec,Single,Upto 5k,No,26,572,10,3,3,46,3,2,4,4684,9125,1,13,3,1,0,5,4,3,5,3,1,2.0,0
 158,RM1350,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Married,Upto 5k,Yes,26,482,1,2,2,90,2,1,3,2933,14908,1,13,3,3,1,1,3,2,1,0,1,0.0,0
 159,RM1362,26-35,No,Travel-Freq,R&D,Other,Male,Lab-Tech,Married,Upto 5k,No,26,1096,6,3,3,61,4,1,4,2544,7102,0,18,3,1,1,8,3,3,7,7,7,7.0,0
@@ -217,7 +217,7 @@
 217,RM273,26-35,No,Travel-Rarely,R&D,Med,Male,Res-Sci,Married,Upto 5k,No,28,1158,9,3,4,94,3,1,4,2070,2613,1,23,4,4,1,5,3,2,5,2,0,4.0,0
 218,RM290,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Single,Upto 5k,No,28,1117,8,2,4,66,3,1,4,3310,4488,1,21,4,4,0,5,3,3,5,3,0,2.0,0
 219,RM303,26-35,No,Travel-Rarely,R&D,Med,Male,Healthcare-Rep,Single,5k-10k,No,28,1476,16,2,2,68,4,2,1,5661,4824,0,19,3,3,0,9,2,3,8,3,0,7.0,0
-220,RM324,26-35,Yes,Travel-Rarely,R&D,Med,Male,Res-Sci,Married,Upto 5k,Yes,28,1157,2,4,1,84,1,1,4,3464,24737,5,13,3,4,0,5,4,2,3,2,2,2.0,0
+220,RM324,26-35,Yes,Travel-Rarely,R&D,Med,Male,Res-Sci,Married,Upto 5k,Yes,28,1157,2,4,1,84,1,1,4,3464,24737,5,13,3,4,0,5,4,2,3,2,2,2.0,1
 221,RM375,26-35,No,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Single,5k-10k,No,28,304,9,4,2,92,3,2,4,5253,20750,1,16,3,4,0,7,1,3,7,5,0,7.0,0
 222,RM405,26-35,No,Travel-Rarely,R&D,Med,Male,Lab-Tech,Divorced,Upto 5k,No,28,1300,17,2,3,79,3,2,1,4558,13535,1,12,3,4,1,10,2,3,10,0,1,4.118060435699227,0
 223,RM541,26-35,Yes,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Single,Upto 5k,Yes,28,654,1,2,1,67,1,1,2,2216,3872,7,13,3,4,0,10,4,3,7,7,3,7.0,1
@@ -230,7 +230,7 @@
 230,RM781,26-35,Yes,Non-Travel,R&D,Tech-Deg,Male,Healthcare-Rep,Single,5k-10k,No,28,1366,24,2,2,72,2,3,1,8722,12355,1,12,3,1,0,10,2,2,10,7,1,9.0,1
 231,RM789,26-35,No,Travel-Rarely,R&D,Other,Female,Res-Sci,Single,Upto 5k,No,28,857,10,3,3,59,3,2,3,3660,7909,3,13,3,4,0,10,4,4,8,7,1,7.0,0
 232,RM794,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Divorced,Upto 5k,No,28,895,15,2,1,50,3,1,3,2207,22482,1,16,3,4,1,4,5,2,4,2,2,2.0,0
-233,RM801,26-35,Yes,Travel-Freq,R&D,Med,Male,Lab-Tech,Divorced,Upto 5k,No,28,1009,1,3,1,45,2,1,2,2596,7160,1,15,3,1,2,1,2,3,1,0,0,0.0,1
+233,RM801,26-35,Yes,Travel-Freq,R&D,Med,Male,Lab-Tech,Divorced,Upto 5k,No,28,1009,1,3,1,45,2,1,2,2596,7160,1,15,3,1,2,1,2,3,1,0,0,0.0,0
 234,RM810,26-35,No,Travel-Rarely,R&D,Med,Female,Mfg-Dir,Divorced,5k-10k,No,28,950,3,3,4,93,3,3,2,7655,8039,0,17,3,2,3,10,3,2,9,7,1,7.0,0
 235,RM820,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Married,Upto 5k,No,28,1451,2,1,1,67,2,1,2,3201,19911,0,17,3,1,0,6,2,1,5,3,0,4.0,0
 236,RM828,26-35,No,Travel-Freq,R&D,Life-Sci,Male,Res-Sci,Divorced,Upto 5k,Yes,28,773,6,3,3,39,2,1,3,2703,22088,1,14,3,4,1,3,2,3,3,1,0,2.0,0
@@ -256,7 +256,7 @@
 256,RM1365,26-35,No,Travel-Freq,Sales,Life-Sci,Male,Sales-Exec,Married,5k-10k,Yes,28,783,1,2,3,42,2,2,4,6834,19255,1,12,3,3,1,7,2,3,7,7,0,7.0,0
 257,RM1370,26-35,Yes,Travel-Rarely,Sales,Mktg,Female,Sales-Exec,Single,5k-10k,Yes,28,1475,13,2,4,84,3,2,3,9854,23352,3,11,3,4,0,6,0,3,2,0,2,2.0,1
 258,RM1382,26-35,No,Non-Travel,R&D,Med,Male,Res-Sci,Single,Upto 5k,No,28,1103,16,3,3,49,3,1,3,2144,2122,1,14,3,3,0,5,3,2,5,3,1,4.0,0
-259,RM1391,26-35,Yes,Travel-Rarely,R&D,Tech-Deg,Male,Lab-Tech,Divorced,Upto 5k,No,28,1404,17,3,3,32,2,1,4,2367,18779,5,12,3,1,1,6,2,2,4,1,0,3.0,1
+259,RM1391,26-35,Yes,Travel-Rarely,R&D,Tech-Deg,Male,Lab-Tech,Divorced,Upto 5k,No,28,1404,17,3,3,32,2,1,4,2367,18779,5,12,3,1,1,6,2,2,4,1,0,3.0,0
 260,RM012,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Lab-Tech,Single,Upto 5k,Yes,29,153,15,2,4,49,2,2,3,4193,12682,0,12,3,4,0,10,3,3,9,5,0,8.0,0
 261,RM016,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Mfg-Dir,Divorced,5k-10k,No,29,1389,21,4,2,51,4,3,1,9980,10195,1,11,3,3,1,10,1,3,10,9,8,8.0,0
 262,RM072,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Married,Upto 5k,No,29,1328,2,3,3,76,3,1,2,2703,4956,0,23,4,4,1,6,3,3,5,4,0,4.118060435699227,0
@@ -264,7 +264,7 @@
 264,RM206,26-35,Yes,Travel-Rarely,Sales,Mktg,Female,Sales-Exec,Married,5k-10k,No,29,121,27,3,2,35,3,3,4,7639,24525,1,22,4,4,3,10,3,2,10,4,1,4.118060435699227,1
 265,RM218,26-35,Yes,Travel-Rarely,R&D,Tech-Deg,Male,Res-Sci,Single,Upto 5k,No,29,992,1,3,3,85,3,1,3,2058,19757,0,14,3,4,0,7,1,2,6,2,1,5.0,1
 266,RM228,26-35,No,Travel-Freq,Sales,Med,Female,Sales-Exec,Married,5k-10k,No,29,1413,1,1,2,42,3,3,4,7918,6599,1,14,3,4,1,11,5,3,11,10,4,1.0,0
-267,RM230,26-35,Yes,Travel-Rarely,R&D,Med,Male,Res-Sci,Single,Upto 5k,Yes,29,896,18,1,3,86,2,1,4,2389,14961,1,13,3,3,0,4,3,2,4,3,0,1.0,1
+267,RM230,26-35,Yes,Travel-Rarely,R&D,Med,Male,Res-Sci,Single,Upto 5k,Yes,29,896,18,1,3,86,2,1,4,2389,14961,1,13,3,3,0,4,3,2,4,3,0,1.0,0
 268,RM253,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Single,Upto 5k,No,29,665,15,3,3,60,3,1,4,2340,22673,1,19,3,1,0,6,1,3,6,5,1,4.118060435699227,0
 269,RM255,26-35,No,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Divorced,5k-10k,No,29,1247,20,2,4,45,3,2,4,6931,10732,2,14,3,4,1,10,2,3,3,2,0,4.118060435699227,0
 270,RM266,26-35,No,Travel-Rarely,Sales,Med,Male,Sales-Exec,Married,5k-10k,No,29,1210,2,3,1,78,2,2,2,6644,3687,2,19,3,2,2,10,2,3,0,0,0,0.0,0
@@ -284,7 +284,7 @@
 284,RM573,26-35,No,Travel-Rarely,R&D,Med,Female,Healthcare-Rep,Married,Upto 5k,No,29,657,27,3,2,66,3,2,3,4335,25549,4,12,3,1,1,11,3,2,8,7,1,1.0,0
 285,RM590,26-35,Yes,Travel-Rarely,R&D,Life-Sci,Female,Lab-Tech,Married,Upto 5k,Yes,29,805,1,2,2,36,2,1,1,2319,6689,1,11,3,4,1,1,1,3,1,0,0,0.0,1
 286,RM595,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Married,Upto 5k,No,29,1252,23,2,3,81,4,1,3,2700,23779,1,24,4,3,1,10,3,3,10,7,0,7.0,0
-287,RM646,26-35,Yes,Travel-Rarely,Sales,Med,Female,Sales-Rep,Divorced,Upto 5k,Yes,29,341,1,3,2,48,2,1,3,2800,23522,6,19,3,3,3,5,3,3,3,2,0,2.0,1
+287,RM646,26-35,Yes,Travel-Rarely,Sales,Med,Female,Sales-Rep,Divorced,Upto 5k,Yes,29,341,1,3,2,48,2,1,3,2800,23522,6,19,3,3,3,5,3,3,3,2,0,2.0,0
 288,RM658,26-35,No,Travel-Rarely,R&D,Med,Female,Lab-Tech,Divorced,Upto 5k,No,29,1086,7,1,1,62,2,1,4,2532,6054,6,14,3,3,3,8,5,3,4,3,0,3.0,0
 289,RM698,26-35,No,Travel-Freq,Sales,Tech-Deg,Female,Sales-Rep,Married,Upto 5k,No,29,1404,20,3,3,84,3,1,4,2157,18203,1,15,3,2,1,3,5,3,3,1,0,2.0,0
 290,RM712,26-35,Yes,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Single,Upto 5k,Yes,29,906,10,3,4,92,2,1,1,2404,11479,6,20,4,3,0,3,5,3,0,0,0,0.0,1
@@ -297,13 +297,13 @@
 297,RM894,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Divorced,Upto 5k,No,29,1010,1,3,1,97,3,1,4,3760,5598,1,15,3,1,3,3,5,3,3,2,1,2.0,0
 298,RM904,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Healthcare-Rep,Divorced,5k-10k,Yes,29,1329,7,3,3,82,3,2,4,6623,4204,1,11,3,2,2,6,2,3,6,0,1,0.0,0
 299,RM906,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Dir,Divorced,15k+,No,29,694,1,3,4,87,2,4,4,16124,3423,3,14,3,2,2,9,2,2,7,7,1,7.0,0
-300,RM933,26-35,Yes,Travel-Rarely,R&D,Tech-Deg,Female,Lab-Tech,Divorced,Upto 5k,Yes,29,806,7,3,2,39,3,1,3,3339,17285,3,13,3,1,2,10,2,3,7,7,7,7.0,0
+300,RM933,26-35,Yes,Travel-Rarely,R&D,Tech-Deg,Female,Lab-Tech,Divorced,Upto 5k,Yes,29,806,7,3,2,39,3,1,3,3339,17285,3,13,3,1,2,10,2,3,7,7,7,7.0,1
 301,RM1006,26-35,No,Travel-Rarely,HR,Other,Male,HR,Single,5k-10k,No,29,332,17,3,2,51,2,3,1,7988,9769,1,13,3,1,0,10,3,2,10,9,0,9.0,0
 302,RM1008,26-35,Yes,Travel-Freq,R&D,Other,Female,Healthcare-Rep,Single,5k-10k,Yes,29,337,14,1,3,84,3,3,4,7553,22930,0,12,3,1,0,9,1,3,8,7,7,7.0,1
 303,RM1058,26-35,Yes,Travel-Freq,Sales,Tech-Deg,Female,Sales-Exec,Single,5k-10k,No,29,115,13,3,1,51,3,2,2,5765,17485,5,11,3,1,0,7,4,1,5,3,0,0.0,1
 304,RM1064,26-35,No,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Divorced,5k-10k,No,29,1246,19,3,3,77,2,2,3,8620,23757,1,14,3,3,2,10,3,3,10,7,0,4.0,0
 305,RM1073,26-35,No,Travel-Freq,R&D,Life-Sci,Female,Lab-Tech,Married,Upto 5k,No,29,410,2,1,4,97,3,1,2,3180,4668,0,13,3,3,3,4,3,3,3,2,0,2.0,0
-306,RM1078,26-35,Yes,Travel-Rarely,R&D,Tech-Deg,Male,Res-Sci,Single,Upto 5k,No,29,224,1,4,1,100,2,1,1,2362,7568,6,13,3,3,0,11,2,1,9,7,0,7.0,1
+306,RM1078,26-35,Yes,Travel-Rarely,R&D,Tech-Deg,Male,Res-Sci,Single,Upto 5k,No,29,224,1,4,1,100,2,1,1,2362,7568,6,13,3,3,0,11,2,1,9,7,0,7.0,0
 307,RM1091,26-35,No,Travel-Rarely,R&D,Other,Female,Healthcare-Rep,Married,5k-10k,No,29,441,8,1,3,39,1,2,1,9715,7288,3,13,3,3,1,9,3,3,7,7,0,7.0,0
 308,RM1105,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Married,Upto 5k,No,29,598,9,3,3,91,4,1,3,2451,22376,6,18,3,1,2,5,2,2,1,0,0,0.0,0
 309,RM1123,26-35,No,Travel-Rarely,R&D,Med,Male,Lab-Tech,Single,Upto 5k,Yes,29,1370,3,1,2,87,3,1,1,4723,16213,1,18,3,4,0,10,3,3,10,9,1,5.0,0
@@ -311,7 +311,7 @@
 311,RM1173,26-35,No,Travel-Rarely,Sales,Med,Male,Sales-Exec,Single,5k-10k,No,29,469,10,3,3,42,2,2,3,5869,23413,9,11,3,3,0,8,2,3,5,2,1,4.0,0
 312,RM1189,26-35,No,Travel-Rarely,Sales,Med,Male,Sales-Exec,Divorced,Upto 5k,Yes,29,991,5,3,1,43,2,2,2,4187,3356,1,13,3,2,1,10,3,2,10,0,0,9.0,0
 313,RM1220,26-35,No,Travel-Rarely,R&D,Med,Female,Lab-Tech,Married,Upto 5k,No,29,1082,9,4,4,43,3,1,3,2974,25412,9,17,3,3,1,9,2,3,5,3,1,2.0,0
-314,RM1250,26-35,Yes,Travel-Rarely,Sales,Mktg,Female,Sales-Rep,Single,Upto 5k,No,29,428,9,3,2,52,1,1,2,2760,14630,1,13,3,3,0,2,3,3,2,2,2,2.0,1
+314,RM1250,26-35,Yes,Travel-Rarely,Sales,Mktg,Female,Sales-Rep,Single,Upto 5k,No,29,428,9,3,2,52,1,1,2,2760,14630,1,13,3,3,0,2,3,3,2,2,2,2.0,0
 315,RM1251,26-35,No,Travel-Freq,R&D,Life-Sci,Male,Healthcare-Rep,Single,5k-10k,Yes,29,461,1,3,4,70,4,2,3,6294,23060,8,12,3,4,0,10,5,4,3,2,0,2.0,0
 316,RM1259,26-35,No,Travel-Rarely,R&D,Tech-Deg,Female,Res-Sci,Divorced,Upto 5k,No,29,590,4,3,4,91,2,1,1,2109,10007,1,13,3,3,1,1,2,3,1,0,0,0.0,0
 317,RM1314,26-35,Yes,Travel-Rarely,HR,HR,Male,HR,Divorced,Upto 5k,Yes,29,350,13,3,1,56,2,1,1,2335,3157,4,15,3,4,3,4,3,3,2,2,2,0.0,1
@@ -352,7 +352,7 @@
 353,RM424,26-35,No,Non-Travel,Sales,Other,Female,Sales-Exec,Married,5k-10k,No,30,1398,22,4,3,69,3,3,1,8412,2890,0,11,3,3,0,10,3,3,9,8,7,8.0,0
 354,RM427,26-35,No,Non-Travel,R&D,Med,Female,Lab-Tech,Single,Upto 5k,No,30,1116,2,3,3,49,3,1,4,2564,7181,0,14,3,3,0,12,2,2,11,7,6,7.0,0
 355,RM438,26-35,No,Travel-Rarely,Sales,Mktg,Male,Sales-Rep,Single,Upto 5k,No,30,413,7,1,4,57,3,1,2,2983,18398,0,14,3,1,0,4,3,3,3,2,1,2.0,0
-356,RM481,26-35,Yes,Travel-Freq,Sales,Life-Sci,Male,Sales-Rep,Married,Upto 5k,No,30,448,12,4,2,74,2,1,1,2033,14470,1,18,3,3,1,1,2,4,1,0,0,0.0,0
+356,RM481,26-35,Yes,Travel-Freq,Sales,Life-Sci,Male,Sales-Rep,Married,Upto 5k,No,30,448,12,4,2,74,2,1,1,2033,14470,1,18,3,3,1,1,2,4,1,0,0,0.0,1
 357,RM502,26-35,No,Travel-Freq,R&D,Med,Female,Res-Sci,Divorced,Upto 5k,No,30,160,3,3,3,71,3,1,3,2083,22653,1,20,4,3,1,1,2,3,1,0,0,0.0,0
 358,RM546,26-35,No,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Divorced,5k-10k,No,30,501,27,5,3,99,3,2,4,5304,25275,7,23,4,4,1,10,2,2,8,7,7,7.0,0
 359,RM582,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Married,Upto 5k,No,30,921,1,3,4,38,1,1,3,3833,24375,3,21,4,3,2,7,2,3,2,2,0,2.0,0
@@ -374,12 +374,12 @@
 375,RM1050,26-35,No,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Married,5k-10k,No,30,1358,16,1,4,96,3,2,3,5301,2939,8,15,3,3,2,4,2,2,2,1,2,2.0,0
 376,RM1053,26-35,No,Non-Travel,R&D,Tech-Deg,Male,Res-Sci,Divorced,Upto 5k,No,30,990,7,3,3,64,3,1,3,1274,7152,1,13,3,2,2,1,2,2,1,0,0,0.0,0
 377,RM1065,26-35,No,Travel-Rarely,HR,Life-Sci,Male,HR,Divorced,Upto 5k,No,30,330,1,3,3,46,3,1,3,2064,15428,0,21,4,1,1,6,3,4,5,3,1,3.0,0
-378,RM1107,26-35,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Married,5k-10k,No,30,740,1,3,2,64,2,2,1,9714,5323,1,11,3,4,1,10,4,3,10,8,6,7.0,0
+378,RM1107,26-35,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Married,5k-10k,No,30,740,1,3,2,64,2,2,1,9714,5323,1,11,3,4,1,10,4,3,10,8,6,7.0,1
 379,RM1110,26-35,No,Travel-Rarely,Sales,Tech-Deg,Male,Sales-Exec,Married,5k-10k,No,30,1288,29,4,3,33,3,3,2,9250,17799,3,12,3,2,1,9,3,3,4,2,1,3.0,0
 380,RM1142,26-35,No,Travel-Rarely,R&D,Med,Male,Res-Sci,Married,Upto 5k,No,30,241,7,3,2,48,2,1,2,2141,5348,1,12,3,2,1,6,3,2,6,4,1,1.0,0
 381,RM1234,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Married,Upto 5k,No,30,793,16,1,2,33,3,1,4,2862,3811,1,12,3,2,1,10,2,2,10,0,0,8.0,0
 382,RM1245,26-35,No,Travel-Freq,R&D,Tech-Deg,Female,Res-Sci,Single,Upto 5k,No,30,1312,2,4,4,78,2,1,1,4968,26427,0,16,3,4,0,10,2,3,9,7,0,7.0,0
-383,RM1247,26-35,Yes,Travel-Freq,HR,HR,Female,HR,Divorced,Upto 5k,No,30,600,8,3,3,66,2,1,4,2180,9732,6,11,3,3,1,6,0,2,4,2,1,2.0,0
+383,RM1247,26-35,Yes,Travel-Freq,HR,HR,Female,HR,Divorced,Upto 5k,No,30,600,8,3,3,66,2,1,4,2180,9732,6,11,3,3,1,6,0,2,4,2,1,2.0,1
 384,RM1252,26-35,No,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Divorced,5k-10k,No,30,979,15,2,3,94,2,3,1,7140,3088,2,11,3,1,1,12,2,3,7,7,1,7.0,0
 385,RM1260,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Healthcare-Rep,Married,5k-10k,No,30,305,16,3,3,58,4,2,3,5294,9128,3,16,3,3,1,10,3,3,7,0,1,7.0,0
 386,RM1297,26-35,No,Travel-Rarely,R&D,Med,Female,Mfg-Dir,Single,5k-10k,No,30,1092,10,3,1,64,3,3,3,9667,2739,9,14,3,2,0,9,3,3,7,7,0,2.0,0
@@ -389,8 +389,8 @@
 390,RM059,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Divorced,5k-10k,No,31,655,7,4,4,48,3,2,4,5915,9528,3,22,4,4,1,10,3,2,7,7,1,7.0,0
 391,RM073,26-35,No,Travel-Rarely,R&D,Med,Male,Res-Sci,Single,Upto 5k,No,31,1082,1,4,3,87,3,1,2,2501,18775,1,17,3,2,0,1,4,3,1,1,1,4.118060435699227,0
 392,RM076,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Mfg-Dir,Single,Upto 5k,No,31,746,8,4,3,61,3,2,4,4424,20682,1,23,4,4,0,11,2,3,11,7,1,4.118060435699227,0
-393,RM125,26-35,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Married,5k-10k,Yes,31,249,6,4,2,76,1,2,3,6172,20739,4,18,3,2,0,12,3,2,7,7,7,7.0,0
-394,RM133,26-35,Yes,Travel-Rarely,Sales,Life-Sci,Female,Sales-Exec,Married,Upto 5k,Yes,31,542,20,3,2,71,1,2,3,4559,24788,3,11,3,3,1,4,2,3,2,2,2,2.0,0
+393,RM125,26-35,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Married,5k-10k,Yes,31,249,6,4,2,76,1,2,3,6172,20739,4,18,3,2,0,12,3,2,7,7,7,7.0,1
+394,RM133,26-35,Yes,Travel-Rarely,Sales,Life-Sci,Female,Sales-Exec,Married,Upto 5k,Yes,31,542,20,3,2,71,1,2,3,4559,24788,3,11,3,3,1,4,2,3,2,2,2,2.0,1
 395,RM181,26-35,No,Travel-Rarely,R&D,Med,Female,Res-Sci,Married,Upto 5k,Yes,31,140,12,1,3,95,3,1,4,3929,6984,8,23,4,3,1,7,0,3,4,2,0,2.0,0
 396,RM225,26-35,No,Non-Travel,R&D,Med,Male,Mfg-Dir,Married,Upto 5k,No,31,979,1,4,3,90,1,2,3,4345,4381,0,12,3,4,1,6,2,3,5,4,1,4.0,0
 397,RM246,26-35,No,Travel-Freq,R&D,Med,Male,Res-Dir,Divorced,10k-15k,No,31,1327,3,4,2,73,3,3,3,13675,13523,9,12,3,1,1,9,3,3,2,2,2,2.0,0
@@ -420,7 +420,7 @@
 421,RM710,26-35,Yes,Non-Travel,R&D,Med,Male,Res-Sci,Single,Upto 5k,Yes,31,335,9,2,3,46,2,1,1,2321,10322,0,22,4,1,0,4,0,3,3,2,1,2.0,1
 422,RM727,26-35,No,Travel-Freq,R&D,Life-Sci,Female,Mfg-Dir,Married,Upto 5k,No,31,853,1,1,3,96,3,2,1,4148,11275,1,12,3,3,1,4,1,3,4,3,0,3.0,0
 423,RM819,26-35,No,Travel-Freq,Sales,Life-Sci,Male,Sales-Rep,Married,Upto 5k,No,31,793,20,3,3,67,4,1,4,2791,21981,0,12,3,1,1,3,4,3,2,2,2,2.0,0
-424,RM832,26-35,Yes,Travel-Freq,R&D,Med,Male,Lab-Tech,Married,Upto 5k,No,31,874,15,3,3,72,3,1,3,2610,6233,1,12,3,3,1,2,5,2,2,2,2,2.0,0
+424,RM832,26-35,Yes,Travel-Freq,R&D,Med,Male,Lab-Tech,Married,Upto 5k,No,31,874,15,3,3,72,3,1,3,2610,6233,1,12,3,3,1,2,5,2,2,2,2,2.0,1
 425,RM896,26-35,No,Travel-Rarely,R&D,Med,Male,Healthcare-Rep,Married,5k-10k,Yes,31,1332,11,2,3,80,3,2,1,6833,17089,1,12,3,4,0,6,2,2,6,5,0,1.0,0
 426,RM897,26-35,No,Travel-Rarely,R&D,Med,Female,Healthcare-Rep,Single,5k-10k,No,31,1062,24,3,3,96,2,2,1,6812,17198,1,19,3,2,0,10,2,3,10,9,1,8.0,0
 427,RM951,26-35,No,Non-Travel,Sales,Life-Sci,Female,Sales-Exec,Divorced,5k-10k,Yes,31,587,2,4,4,57,3,3,3,9852,8935,1,19,3,1,1,10,5,2,10,8,9,6.0,0
@@ -431,10 +431,10 @@
 432,RM1015,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Dir,Single,15k+,No,31,182,8,5,1,93,3,4,2,16422,8847,3,11,3,3,0,9,3,4,3,2,1,0.0,0
 433,RM1017,26-35,Yes,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Single,Upto 5k,No,31,202,8,3,1,34,2,1,2,1261,22262,1,12,3,3,0,1,3,4,1,0,0,0.0,1
 434,RM1031,26-35,No,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Divorced,10k-15k,No,31,326,8,2,1,31,3,3,4,10793,8386,1,18,3,1,1,13,5,3,13,7,9,9.0,0
-435,RM1034,26-35,Yes,Travel-Freq,R&D,Life-Sci,Female,Mfg-Dir,Single,5k-10k,No,31,1445,1,5,3,100,4,3,2,7446,8931,1,11,3,1,0,10,2,3,10,8,4,7.0,0
+435,RM1034,26-35,Yes,Travel-Freq,R&D,Life-Sci,Female,Mfg-Dir,Single,5k-10k,No,31,1445,1,5,3,100,4,3,2,7446,8931,1,11,3,1,0,10,2,3,10,8,4,7.0,1
 436,RM1036,26-35,No,Travel-Rarely,HR,Med,Female,HR,Single,Upto 5k,No,31,1398,8,2,4,96,4,1,2,2109,24609,9,18,3,4,0,8,3,3,3,2,0,2.0,0
 437,RM1037,26-35,Yes,Travel-Freq,R&D,Life-Sci,Male,Lab-Tech,Married,Upto 5k,Yes,31,523,2,3,2,94,3,1,4,3722,21081,6,13,3,3,1,7,2,1,2,2,2,2.0,0
-438,RM1086,26-35,Yes,Travel-Freq,R&D,Life-Sci,Female,Res-Sci,Single,Upto 5k,No,31,561,3,3,4,33,3,1,3,4084,4156,1,12,3,1,0,7,2,1,7,2,7,7.0,0
+438,RM1086,26-35,Yes,Travel-Freq,R&D,Life-Sci,Female,Res-Sci,Single,Upto 5k,No,31,561,3,3,4,33,3,1,3,4084,4156,1,12,3,1,0,7,2,1,7,2,7,7.0,1
 439,RM1145,26-35,No,Travel-Freq,Sales,Other,Male,Sales-Exec,Single,5k-10k,No,31,715,2,4,4,54,3,2,1,5332,21602,7,13,3,4,0,10,3,3,5,2,0,3.0,0
 440,RM1192,26-35,No,Travel-Rarely,Sales,Life-Sci,Female,Sales-Exec,Married,5k-10k,No,31,1112,5,4,1,67,3,2,4,5476,22589,1,11,3,1,2,10,2,3,10,0,0,2.0,0
 441,RM1228,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Married,Upto 5k,No,31,741,2,4,2,69,3,1,3,3477,18103,1,14,3,4,1,6,2,4,5,2,0,3.0,0
@@ -443,14 +443,14 @@
 444,RM1258,26-35,Yes,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Married,5k-10k,No,31,1079,16,4,1,70,3,3,3,8161,19002,2,13,3,1,3,10,2,3,1,0,0,0.0,1
 445,RM1275,26-35,No,Travel-Rarely,Sales,Mktg,Female,Sales-Exec,Married,5k-10k,No,31,196,29,4,1,91,2,2,4,5468,13402,1,14,3,1,2,13,3,3,12,7,5,7.0,0
 446,RM1307,26-35,No,Travel-Freq,Sales,Mktg,Female,Sales-Exec,Married,5k-10k,No,31,1125,7,4,1,68,3,3,1,9637,8277,2,14,3,4,2,9,3,3,3,2,2,2.0,0
-447,RM1313,26-35,Yes,Travel-Rarely,HR,HR,Male,HR,Married,Upto 5k,No,31,359,18,5,4,89,4,1,1,2956,21495,0,17,3,3,0,2,4,3,1,0,0,0.0,1
+447,RM1313,26-35,Yes,Travel-Rarely,HR,HR,Male,HR,Married,Upto 5k,No,31,359,18,5,4,89,4,1,1,2956,21495,0,17,3,3,0,2,4,3,1,0,0,0.0,0
 448,RM1342,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Divorced,Upto 5k,No,31,311,20,3,2,89,3,2,3,4197,18624,1,11,3,1,1,10,2,3,10,8,0,2.0,0
 449,RM1359,26-35,No,Travel-Rarely,Sales,Med,Female,Sales-Exec,Divorced,5k-10k,Yes,31,1079,10,2,3,86,3,2,4,6583,20115,2,11,3,4,1,8,2,3,5,2,1,4.0,0
 450,RM1361,26-35,No,Travel-Rarely,R&D,Med,Female,Lab-Tech,Divorced,Upto 5k,No,31,471,4,3,1,62,4,1,3,3978,16031,8,12,3,2,1,4,0,2,2,2,2,2.0,0
 451,RM1383,26-35,No,Non-Travel,R&D,Med,Male,Res-Sci,Divorced,Upto 5k,Yes,31,976,3,2,3,48,3,1,1,3065,3995,1,13,3,4,1,4,3,4,4,2,2,3.0,0
 452,RM1390,26-35,No,Travel-Freq,R&D,Life-Sci,Male,Res-Sci,Married,5k-10k,No,31,1125,1,3,4,48,1,2,1,5003,5771,1,21,4,2,0,10,6,3,10,8,8,7.0,0
 453,RM1396,26-35,Yes,Travel-Freq,Sales,Mktg,Male,Sales-Exec,Married,5k-10k,Yes,31,754,26,4,1,63,3,2,4,5617,21075,1,11,3,3,0,10,4,3,10,7,0,8.0,1
-454,RM1403,26-35,No,Travel-Rarely,R&D,Med,Female,Lab-Tech,Divorced,Upto 5k,Yes,31,1276,2,1,4,59,1,1,4,1129,17536,1,11,3,3,3,1,4,3,1,0,0,0.0,1
+454,RM1403,26-35,No,Travel-Rarely,R&D,Med,Female,Lab-Tech,Divorced,Upto 5k,Yes,31,1276,2,1,4,59,1,1,4,1129,17536,1,11,3,3,3,1,4,3,1,0,0,0.0,0
 455,RM1406,26-35,No,Non-Travel,R&D,Med,Female,Res-Dir,Married,10k-15k,No,31,697,10,3,3,40,3,3,3,11031,26862,4,20,4,3,1,13,2,4,11,7,4,8.0,0
 456,RM1418,26-35,No,Travel-Rarely,Sales,Life-Sci,Male,Sales-Rep,Married,Upto 5k,No,31,1154,2,2,1,54,3,1,3,3067,6393,0,19,3,3,1,3,1,3,2,2,1,2.0,0
 457,RM1464,26-35,No,Non-Travel,R&D,Med,Male,Mfg-Dir,Single,5k-10k,No,31,325,5,3,2,74,3,2,1,9936,3787,0,19,3,2,0,10,2,3,9,4,1,7.0,0
@@ -461,7 +461,7 @@
 463,RM074,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Married,5k-10k,No,32,548,1,3,2,66,3,2,2,6220,7346,1,17,3,2,2,10,3,3,10,4,0,4.118060435699227,0
 464,RM095,26-35,No,Travel-Rarely,Sales,Med,Male,Sales-Exec,Single,5k-10k,No,32,1093,6,4,2,87,3,2,3,5010,24301,1,16,3,1,0,12,0,3,11,8,5,7.0,0
 465,RM102,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Single,Upto 5k,No,32,827,1,1,4,71,3,1,1,2956,15178,1,13,3,4,0,1,2,3,1,0,0,0.0,0
-466,RM141,26-35,Yes,Travel-Rarely,R&D,Med,Female,Lab-Tech,Single,Upto 5k,No,32,1033,9,3,1,41,3,1,1,4200,10224,7,22,4,1,0,10,2,4,5,4,0,4.118060435699227,1
+466,RM141,26-35,Yes,Travel-Rarely,R&D,Med,Female,Lab-Tech,Single,Upto 5k,No,32,1033,9,3,1,41,3,1,1,4200,10224,7,22,4,1,0,10,2,4,5,4,0,4.118060435699227,0
 467,RM145,26-35,No,Travel-Freq,Sales,Med,Male,Sales-Exec,Divorced,Upto 5k,No,32,689,9,2,4,35,1,2,4,4668,22812,0,17,3,4,3,9,2,4,8,7,0,4.118060435699227,0
 468,RM155,26-35,No,Travel-Freq,Sales,Mktg,Female,Sales-Exec,Single,5k-10k,No,32,967,8,3,2,43,3,3,4,8998,15589,1,14,3,4,0,9,2,3,9,8,3,7.0,0
 469,RM170,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Single,Upto 5k,No,32,120,6,5,3,43,3,1,3,3038,12430,3,20,4,1,0,8,2,3,5,4,1,4.0,0
@@ -475,7 +475,7 @@
 477,RM320,26-35,No,Travel-Rarely,Sales,Tech-Deg,Female,Sales-Exec,Married,5k-10k,Yes,32,588,8,2,3,65,2,2,2,5228,24624,1,11,3,4,0,13,2,3,13,12,11,9.0,0
 478,RM323,26-35,No,Travel-Rarely,R&D,Med,Female,Res-Sci,Single,5k-10k,No,32,1018,2,4,1,74,4,2,4,5055,10557,7,16,3,3,0,10,0,2,7,7,0,7.0,0
 479,RM352,26-35,No,Travel-Rarely,R&D,Med,Female,Lab-Tech,Married,Upto 5k,No,32,1062,2,3,3,75,3,1,2,2370,3956,1,13,3,3,1,8,4,3,8,0,0,7.0,0
-480,RM470,26-35,Yes,Non-Travel,Sales,Other,Male,Sales-Exec,Married,Upto 5k,No,32,1474,11,4,4,60,4,2,3,4707,23914,8,12,3,4,0,6,2,3,4,2,1,2.0,0
+480,RM470,26-35,Yes,Non-Travel,Sales,Other,Male,Sales-Exec,Married,Upto 5k,No,32,1474,11,4,4,60,4,2,3,4707,23914,8,12,3,4,0,6,2,3,4,2,1,2.0,1
 481,RM501,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Married,5k-10k,Yes,32,646,9,4,1,92,3,2,4,6322,18089,1,12,3,4,1,6,2,2,6,4,0,5.0,0
 482,RM528,26-35,No,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Single,5k-10k,No,32,929,10,3,4,55,3,2,4,5396,21703,1,12,3,4,0,10,2,2,10,7,0,8.0,0
 483,RM532,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Dir,Single,10k-15k,No,32,1018,3,2,3,39,3,3,4,11159,19373,3,15,3,4,0,10,6,3,7,7,7,7.0,0
@@ -501,7 +501,7 @@
 503,RM1114,26-35,No,Non-Travel,R&D,Tech-Deg,Male,Res-Sci,Married,Upto 5k,No,32,1200,1,4,4,62,3,2,1,4087,25174,4,14,3,2,1,9,3,2,6,5,1,2.0,0
 504,RM1140,26-35,No,Travel-Rarely,R&D,Other,Female,Res-Sci,Married,Upto 5k,No,32,634,5,4,2,35,4,1,4,3312,18783,3,17,3,4,2,6,3,3,3,2,0,2.0,0
 505,RM1191,26-35,No,Travel-Rarely,R&D,Med,Male,Res-Sci,Divorced,5k-10k,No,32,977,2,3,4,45,3,2,2,5470,25518,0,13,3,3,2,10,4,2,9,5,1,6.0,0
-506,RM1206,26-35,Yes,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Single,Upto 5k,No,32,1259,2,4,4,95,3,1,2,1393,24852,1,12,3,1,0,1,2,3,1,0,0,0.0,0
+506,RM1206,26-35,Yes,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Single,Upto 5k,No,32,1259,2,4,4,95,3,1,2,1393,24852,1,12,3,1,0,1,2,3,1,0,0,0.0,1
 507,RM1227,26-35,No,Travel-Freq,R&D,Life-Sci,Male,Res-Sci,Married,Upto 5k,No,32,585,10,3,1,56,3,1,3,3433,17360,6,13,3,1,1,10,3,2,5,2,1,3.0,0
 508,RM1238,26-35,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Single,5k-10k,No,32,964,1,2,1,34,1,2,2,6735,12147,6,15,3,2,0,10,2,3,0,0,0,0.0,1
 509,RM1242,26-35,No,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Married,5k-10k,No,32,371,19,3,4,80,1,3,3,9610,3840,3,13,3,3,1,10,2,1,4,3,0,2.0,0
@@ -523,7 +523,7 @@
 525,RM177,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Single,Upto 5k,No,33,134,2,3,3,90,3,1,4,2500,10515,0,14,3,1,0,4,2,4,3,1,0,2.0,0
 526,RM186,26-35,No,Travel-Rarely,R&D,Med,Female,Res-Sci,Married,Upto 5k,No,33,931,14,3,4,72,3,1,2,2756,4673,1,13,3,4,1,8,5,3,8,7,1,6.0,0
 527,RM222,26-35,No,Travel-Rarely,R&D,Med,Female,Res-Sci,Married,Upto 5k,No,33,147,4,4,3,47,2,1,2,2622,13248,6,21,4,4,0,7,3,3,3,2,1,1.0,0
-528,RM235,26-35,Yes,Travel-Rarely,R&D,Med,Male,Lab-Tech,Married,Upto 5k,Yes,33,813,14,3,3,58,3,1,4,2436,22149,5,13,3,3,1,8,2,1,5,4,0,4.0,1
+528,RM235,26-35,Yes,Travel-Rarely,R&D,Med,Male,Lab-Tech,Married,Upto 5k,Yes,33,813,14,3,3,58,3,1,4,2436,22149,5,13,3,3,1,8,2,1,5,4,0,4.0,0
 529,RM237,26-35,Yes,Travel-Rarely,R&D,Life-Sci,Female,Lab-Tech,Married,Upto 5k,No,33,465,2,2,1,39,3,1,1,2707,21509,7,20,4,1,0,13,3,4,9,7,1,7.0,1
 530,RM247,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Married,Upto 5k,No,33,832,5,4,3,63,2,1,4,2911,14776,1,13,3,3,1,2,2,2,2,2,0,2.0,0
 531,RM314,26-35,No,Travel-Freq,R&D,Life-Sci,Female,Mgr,Married,10k-15k,No,33,553,5,4,4,74,3,3,2,11878,23364,6,11,3,2,2,12,2,3,10,6,8,8.0,0
@@ -535,7 +535,7 @@
 537,RM500,26-35,No,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Divorced,5k-10k,No,33,1216,8,4,3,39,3,2,3,7104,20431,0,12,3,4,0,6,3,3,5,0,1,2.0,0
 538,RM510,26-35,No,Travel-Freq,R&D,Life-Sci,Male,Healthcare-Rep,Divorced,5k-10k,No,33,1296,6,3,3,30,3,2,4,7725,5335,3,23,4,3,1,15,2,1,13,11,4,7.0,0
 539,RM515,26-35,Yes,Travel-Freq,R&D,Life-Sci,Male,Res-Sci,Single,Upto 5k,Yes,33,1076,3,3,1,70,3,1,1,3348,3164,1,11,3,1,0,10,3,3,10,8,9,7.0,1
-540,RM563,26-35,Yes,Travel-Rarely,R&D,Other,Male,Res-Sci,Single,Upto 5k,Yes,33,527,1,4,4,63,3,1,4,2686,5207,1,13,3,3,0,10,2,2,10,9,7,8.0,1
+540,RM563,26-35,Yes,Travel-Rarely,R&D,Other,Male,Res-Sci,Single,Upto 5k,Yes,33,527,1,4,4,63,3,1,4,2686,5207,1,13,3,3,0,10,2,2,10,9,7,8.0,0
 541,RM591,26-35,No,Travel-Rarely,R&D,Med,Male,Res-Dir,Married,10k-15k,No,33,213,7,3,3,49,3,3,3,11691,25995,0,11,3,4,0,14,3,4,13,9,3,7.0,0
 542,RM592,26-35,Yes,Travel-Rarely,Sales,Mktg,Female,Sales-Exec,Single,5k-10k,No,33,118,16,3,1,69,3,2,1,5324,26507,5,15,3,3,0,6,3,3,3,2,0,2.0,1
 543,RM620,26-35,No,Travel-Rarely,Sales,Med,Male,Sales-Exec,Divorced,Upto 5k,No,33,586,1,3,1,48,4,2,1,4037,21816,1,22,4,1,1,9,5,3,9,8,0,8.0,0
@@ -547,7 +547,7 @@
 549,RM716,26-35,No,Travel-Freq,R&D,Other,Female,Healthcare-Rep,Married,5k-10k,Yes,33,827,1,4,3,84,4,2,2,5488,20161,1,13,3,1,1,6,2,3,6,5,1,2.0,0
 550,RM755,26-35,No,Non-Travel,Sales,Life-Sci,Female,Sales-Rep,Single,Upto 5k,No,33,1038,8,1,2,88,2,1,4,2342,21437,0,19,3,4,0,3,2,2,2,2,2,2.0,0
 551,RM791,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Healthcare-Rep,Divorced,5k-10k,No,33,654,5,3,4,34,2,3,4,7119,21214,4,15,3,3,1,9,2,3,3,2,1,2.0,0
-552,RM793,26-35,Yes,Travel-Freq,R&D,Med,Female,Res-Sci,Single,Upto 5k,No,33,827,29,4,1,54,2,2,3,4508,3129,1,22,4,2,0,14,4,3,13,7,3,8.0,0
+552,RM793,26-35,Yes,Travel-Freq,R&D,Med,Female,Res-Sci,Single,Upto 5k,No,33,827,29,4,1,54,2,2,3,4508,3129,1,22,4,2,0,14,4,3,13,7,3,8.0,1
 553,RM799,26-35,Yes,Travel-Rarely,R&D,Med,Male,Res-Sci,Single,Upto 5k,Yes,33,1017,25,3,1,55,2,1,2,2313,2993,4,20,4,2,0,5,0,3,2,2,2,2.0,1
 554,RM803,26-35,No,Travel-Freq,Sales,Life-Sci,Female,Sales-Exec,Married,Upto 5k,No,33,970,7,3,4,30,3,2,2,4302,13401,0,17,3,3,1,4,3,3,3,2,0,2.0,0
 555,RM830,26-35,Yes,Travel-Rarely,Sales,Mktg,Female,Sales-Exec,Single,5k-10k,Yes,33,603,9,4,1,77,3,2,1,8224,18385,0,17,3,1,0,6,3,3,5,2,0,3.0,1
@@ -575,7 +575,7 @@
 577,RM1426,26-35,No,Travel-Rarely,R&D,Med,Female,Healthcare-Rep,Married,Upto 5k,Yes,33,501,15,2,2,95,3,2,4,4878,21653,0,13,3,1,1,10,6,3,9,7,8,1.0,0
 578,RM014,26-35,No,Travel-Rarely,R&D,Med,Male,Lab-Tech,Divorced,Upto 5k,No,34,1346,19,2,2,93,3,1,4,2661,8758,0,11,3,3,1,3,2,3,2,2,1,2.0,0
 579,RM023,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Dir,Single,10k-15k,No,34,419,7,4,1,53,3,3,2,11994,21293,0,11,3,3,0,13,4,3,12,6,2,4.118060435699227,0
-580,RM025,26-35,Yes,Travel-Rarely,R&D,Med,Male,Res-Sci,Single,Upto 5k,No,34,699,6,1,2,83,3,1,1,2960,17102,2,11,3,3,0,8,2,3,4,2,1,4.118060435699227,0
+580,RM025,26-35,Yes,Travel-Rarely,R&D,Med,Male,Res-Sci,Single,Upto 5k,No,34,699,6,1,2,83,3,1,1,2960,17102,2,11,3,3,0,8,2,3,4,2,1,4.118060435699227,1
 581,RM047,26-35,No,Non-Travel,Sales,Mktg,Male,Sales-Exec,Single,Upto 5k,No,34,1065,23,4,2,72,3,2,3,4568,10034,0,20,4,3,0,10,2,3,9,5,8,7.0,0
 582,RM085,26-35,No,Travel-Rarely,R&D,Med,Male,Mfg-Dir,Married,Upto 5k,No,34,1153,1,2,1,94,3,2,2,4325,17736,1,15,3,3,0,5,2,3,5,2,1,3.0,0
 583,RM104,26-35,No,Travel-Rarely,R&D,Other,Female,Res-Sci,Single,Upto 5k,No,34,665,6,4,1,41,3,2,3,4809,12482,1,14,3,3,0,16,3,3,16,13,2,10.0,0
@@ -607,7 +607,7 @@
 609,RM614,26-35,No,Travel-Rarely,HR,HR,Male,HR,Married,Upto 5k,No,34,829,3,2,3,88,3,1,4,3737,2243,0,19,3,3,1,4,1,1,3,2,0,2.0,0
 610,RM672,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Divorced,Upto 5k,No,34,546,10,3,2,83,3,1,2,2008,6896,1,14,3,2,2,1,3,3,1,0,1,0.0,0
 611,RM758,26-35,No,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Divorced,5k-10k,No,34,216,1,4,2,75,4,2,4,9725,12278,0,11,3,4,1,16,2,2,15,1,0,9.0,0
-612,RM764,26-35,No,Travel-Rarely,Sales,Life-Sci,Female,Sales-Rep,Married,Upto 5k,Yes,34,1333,10,4,3,87,3,1,3,2220,18410,1,19,3,4,1,1,2,3,1,1,0,0.0,0
+612,RM764,26-35,No,Travel-Rarely,Sales,Life-Sci,Female,Sales-Rep,Married,Upto 5k,Yes,34,1333,10,4,3,87,3,1,3,2220,18410,1,19,3,4,1,1,2,3,1,1,0,0.0,1
 613,RM795,26-35,No,Travel-Freq,R&D,Life-Sci,Male,Healthcare-Rep,Single,5k-10k,No,34,618,3,1,1,45,3,2,4,7756,22266,0,17,3,3,0,7,1,2,6,2,0,4.0,0
 614,RM804,26-35,No,Non-Travel,R&D,Life-Sci,Male,Res-Sci,Married,Upto 5k,No,34,697,3,4,3,40,2,1,4,2979,22478,3,17,3,4,3,6,2,3,0,0,0,0.0,0
 615,RM823,26-35,No,Travel-Freq,R&D,Life-Sci,Male,Mfg-Dir,Single,Upto 5k,No,34,1003,2,2,4,95,3,2,3,4033,15834,2,11,3,4,0,5,3,2,3,2,0,2.0,0
@@ -643,7 +643,7 @@
 645,RM1291,26-35,Yes,Travel-Freq,R&D,Life-Sci,Male,Lab-Tech,Married,5k-10k,No,34,234,9,4,4,93,3,2,1,5346,6208,4,17,3,3,1,11,3,2,7,1,0,7.0,1
 646,RM1301,26-35,No,Travel-Rarely,Sales,Tech-Deg,Male,Sales-Exec,Married,5k-10k,No,34,810,8,2,2,92,4,2,3,6799,22128,1,21,4,3,2,10,5,3,10,8,4,8.0,0
 647,RM1343,26-35,No,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Married,5k-10k,Yes,34,1480,4,3,3,64,3,3,4,9713,24444,2,13,3,4,3,9,3,3,5,3,1,0.0,0
-648,RM1354,26-35,Yes,Non-Travel,R&D,Tech-Deg,Male,Res-Sci,Married,Upto 5k,Yes,34,967,16,4,4,85,1,1,1,2307,14460,1,23,4,2,1,5,2,3,5,2,3,0.0,0
+648,RM1354,26-35,Yes,Non-Travel,R&D,Tech-Deg,Male,Res-Sci,Married,Upto 5k,Yes,34,967,16,4,4,85,1,1,1,2307,14460,1,23,4,2,1,5,2,3,5,2,3,0.0,1
 649,RM1360,26-35,No,Travel-Rarely,Sales,Med,Female,Sales-Exec,Married,5k-10k,Yes,34,735,3,1,4,75,2,2,4,8103,16495,3,12,3,3,0,9,3,2,4,2,0,1.0,0
 650,RM1369,26-35,No,Travel-Freq,R&D,Other,Male,Res-Sci,Married,5k-10k,Yes,34,735,22,4,3,86,2,2,4,5747,26496,1,15,3,2,0,16,3,3,15,10,6,11.0,0
 651,RM1385,26-35,No,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Single,5k-10k,No,34,937,1,3,1,32,3,3,4,9888,6770,1,21,4,1,0,14,3,2,14,8,2,1.0,0
@@ -689,7 +689,7 @@
 692,RM726,26-35,Yes,Travel-Rarely,R&D,Other,Male,Lab-Tech,Divorced,Upto 5k,Yes,35,622,14,4,3,39,2,1,2,3743,10074,1,24,4,4,1,5,2,1,4,2,0,2.0,1
 693,RM730,26-35,No,Travel-Rarely,R&D,Med,Female,Healthcare-Rep,Divorced,10k-15k,Yes,35,583,25,4,3,57,3,3,3,10388,6975,1,11,3,3,1,16,3,2,16,10,10,1.0,0
 694,RM741,26-35,No,Travel-Rarely,R&D,Other,Male,Lab-Tech,Divorced,Upto 5k,No,35,802,10,3,2,45,3,1,4,3917,9541,1,20,4,1,1,3,4,2,3,2,1,2.0,0
-695,RM792,26-35,Yes,Travel-Rarely,Sales,Tech-Deg,Male,Sales-Exec,Single,5k-10k,Yes,35,1204,4,3,4,86,3,3,1,9582,10333,0,22,4,1,0,9,2,3,8,7,4,7.0,0
+695,RM792,26-35,Yes,Travel-Rarely,Sales,Tech-Deg,Male,Sales-Exec,Single,5k-10k,Yes,35,1204,4,3,4,86,3,3,1,9582,10333,0,22,4,1,0,9,2,3,8,7,4,7.0,1
 696,RM821,26-35,No,Travel-Freq,Sales,Mktg,Male,Sales-Exec,Divorced,Upto 5k,No,35,1182,11,2,4,54,3,2,4,4968,18500,1,11,3,4,1,5,3,3,5,2,0,2.0,0
 697,RM836,26-35,No,Travel-Rarely,HR,Tech-Deg,Male,HR,Single,Upto 5k,No,35,528,8,4,3,100,3,1,3,4323,7108,1,17,3,2,0,6,2,1,5,4,1,4.0,0
 698,RM841,26-35,No,Travel-Rarely,R&D,Med,Male,Lab-Tech,Married,Upto 5k,No,35,982,1,4,4,58,2,1,3,2258,16340,6,12,3,2,1,10,2,3,8,0,1,7.0,0
@@ -717,7 +717,7 @@
 720,RM1187,26-35,Yes,Travel-Freq,Sales,Other,Male,Sales-Exec,Single,Upto 5k,Yes,35,880,12,4,4,36,3,2,4,4581,10414,3,24,4,1,0,13,2,4,11,9,6,7.0,1
 721,RM1216,26-35,No,Travel-Freq,R&D,Med,Male,Res-Sci,Single,Upto 5k,Yes,35,146,2,4,1,79,2,1,4,4930,13970,0,14,3,3,0,6,2,4,5,4,1,4.0,0
 722,RM1233,26-35,No,Travel-Rarely,R&D,Life-Sci,Male,Mfg-Dir,Married,5k-10k,No,35,1370,27,4,4,49,3,2,3,6883,5151,2,16,3,2,1,17,3,3,7,7,0,7.0,0
-723,RM1282,26-35,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Single,5k-10k,Yes,35,303,27,3,3,84,3,2,4,5813,13492,1,18,3,4,0,10,2,3,10,7,7,7.0,1
+723,RM1282,26-35,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Single,5k-10k,Yes,35,303,27,3,3,84,3,2,4,5813,13492,1,18,3,4,0,10,2,3,10,7,7,7.0,0
 724,RM1289,26-35,No,Non-Travel,R&D,Med,Male,Mfg-Dir,Divorced,5k-10k,No,35,1180,2,2,2,90,3,2,4,5762,24442,2,14,3,3,1,15,6,3,7,7,1,7.0,0
 725,RM1303,26-35,No,Travel-Rarely,R&D,Med,Male,Lab-Tech,Married,Upto 5k,No,35,185,23,4,2,91,1,1,3,2705,9696,0,16,3,2,1,6,2,4,5,4,0,3.0,0
 726,RM1346,26-35,No,Travel-Rarely,R&D,Other,Female,Mfg-Dir,Married,Upto 5k,Yes,35,219,16,2,4,44,2,2,2,4788,25388,0,11,3,4,0,4,2,3,3,2,0,2.0,0
@@ -729,7 +729,7 @@
 732,RM1457,26-35,No,Travel-Freq,R&D,Life-Sci,Male,Healthcare-Rep,Married,5k-10k,Yes,35,1199,18,4,3,80,3,2,3,5689,24594,1,14,3,4,2,10,2,4,10,2,0,2.0,0
 733,RM1459,26-35,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Married,Upto 5k,No,35,287,1,4,3,62,1,1,4,2977,8952,1,12,3,4,1,4,5,3,4,3,1,1.0,0
 734,RM010,36-45,No,Travel-Rarely,R&D,Med,Male,Healthcare-Rep,Married,5k-10k,No,36,1299,27,3,3,94,3,2,3,5237,16577,6,13,3,2,2,17,3,2,7,7,7,7.0,0
-735,RM022,36-45,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Rep,Single,Upto 5k,No,36,1218,9,4,3,82,2,1,1,3407,6986,7,23,4,2,0,10,4,3,5,3,0,3.0,1
+735,RM022,36-45,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Rep,Single,Upto 5k,No,36,1218,9,4,3,82,2,1,1,3407,6986,7,23,4,2,0,10,4,3,5,3,0,3.0,0
 736,RM039,36-45,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Sci,Married,Upto 5k,Yes,36,852,5,4,2,82,2,1,1,3419,13072,9,14,3,4,1,6,3,4,1,1,0,0.0,0
 737,RM065,36-45,No,Travel-Rarely,R&D,Tech-Deg,Female,Healthcare-Rep,Divorced,10k-15k,No,36,1223,8,3,3,59,3,3,3,10096,8202,1,13,3,2,3,17,2,3,17,14,12,8.0,0
 738,RM067,36-45,No,Travel-Freq,R&D,Life-Sci,Male,Mfg-Dir,Single,5k-10k,No,36,1195,11,3,2,95,2,2,2,6499,22656,1,13,3,3,0,6,3,3,6,5,0,3.0,0
@@ -762,7 +762,7 @@
 765,RM688,36-45,No,Travel-Rarely,R&D,Med,Male,Lab-Tech,Single,Upto 5k,No,36,938,2,4,3,79,3,1,3,2519,12287,4,21,4,3,0,16,6,3,11,8,3,9.0,0
 766,RM694,36-45,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Married,10k-15k,Yes,36,530,3,1,3,51,2,3,4,10325,5518,1,11,3,1,1,16,6,3,16,7,3,7.0,1
 767,RM709,36-45,No,Non-Travel,Sales,Tech-Deg,Male,Sales-Exec,Divorced,5k-10k,No,36,1229,8,4,1,84,3,2,4,5079,25952,4,13,3,4,2,12,3,3,7,7,0,7.0,0
-768,RM753,36-45,Yes,Travel-Rarely,R&D,Life-Sci,Female,Lab-Tech,Single,Upto 5k,No,36,885,16,4,3,43,4,1,1,2743,8269,1,16,3,3,0,18,1,3,17,13,15,14.0,0
+768,RM753,36-45,Yes,Travel-Rarely,R&D,Life-Sci,Female,Lab-Tech,Single,Upto 5k,No,36,885,16,4,3,43,4,1,1,2743,8269,1,16,3,3,0,18,1,3,17,13,15,14.0,1
 769,RM762,36-45,Yes,Travel-Rarely,R&D,Other,Male,Lab-Tech,Divorced,Upto 5k,No,36,660,15,3,1,81,3,2,3,4834,7858,7,14,3,2,1,9,3,2,1,0,0,0.0,1
 770,RM774,36-45,No,Travel-Rarely,R&D,Med,Female,Mfg-Dir,Single,5k-10k,No,36,796,12,5,4,51,2,3,4,8858,15669,0,11,3,2,0,15,2,2,14,8,7,8.0,0
 771,RM818,36-45,No,Non-Travel,R&D,Life-Sci,Male,Mfg-Dir,Single,5k-10k,No,36,217,18,4,1,78,3,2,4,7779,23238,2,20,4,1,0,18,0,3,11,9,0,9.0,0
@@ -830,7 +830,7 @@
 834,RM649,36-45,No,Travel-Freq,Sales,Med,Female,Sales-Rep,Married,Upto 5k,No,37,1231,21,2,3,54,3,1,4,2973,21222,5,15,3,2,1,10,3,3,5,4,0,0.0,0
 835,RM653,36-45,No,Non-Travel,Sales,Med,Male,Sales-Exec,Single,5k-10k,Yes,37,1252,19,2,1,32,3,3,2,7642,4814,1,13,3,4,0,10,2,3,10,0,0,9.0,0
 836,RM696,36-45,Yes,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Married,10k-15k,No,37,625,1,4,1,46,2,3,3,10609,14922,5,11,3,3,0,17,2,1,14,1,11,7.0,1
-837,RM745,36-45,Yes,Travel-Rarely,R&D,Med,Female,Healthcare-Rep,Married,Upto 5k,No,37,1141,11,2,1,61,1,2,2,4777,14382,5,15,3,1,0,15,2,1,1,0,0,0.0,0
+837,RM745,36-45,Yes,Travel-Rarely,R&D,Med,Female,Healthcare-Rep,Married,Upto 5k,No,37,1141,11,2,1,61,1,2,2,4777,14382,5,15,3,1,0,15,2,1,1,0,0,0.0,1
 838,RM768,36-45,No,Travel-Rarely,R&D,Other,Female,Healthcare-Rep,Single,Upto 5k,No,37,124,3,3,4,35,3,2,2,4107,13848,3,15,3,1,0,8,3,2,4,3,0,1.0,0
 839,RM796,36-45,No,Travel-Rarely,Sales,Life-Sci,Female,Sales-Exec,Divorced,5k-10k,Yes,37,309,10,4,4,88,2,2,4,6694,24223,2,14,3,3,3,8,5,3,1,0,0,0.0,0
 840,RM833,36-45,No,Travel-Rarely,R&D,Med,Female,Healthcare-Rep,Divorced,5k-10k,No,37,367,25,2,3,52,2,2,4,5731,17171,7,13,3,3,2,9,2,3,6,2,1,3.0,0
@@ -885,7 +885,7 @@
 889,RM964,36-45,No,Travel-Rarely,Sales,Life-Sci,Female,Sales-Exec,Divorced,5k-10k,No,38,1009,2,2,2,31,3,2,1,6893,19461,3,15,3,4,1,11,3,3,7,7,1,7.0,0
 890,RM983,36-45,No,Travel-Freq,R&D,Life-Sci,Male,Res-Sci,Divorced,Upto 5k,No,38,693,7,3,4,57,4,1,3,2610,15748,1,11,3,4,3,4,2,3,4,2,0,3.0,0
 891,RM1108,36-45,No,Travel-Freq,HR,HR,Male,HR,Married,5k-10k,No,38,888,10,4,3,71,3,2,3,6077,14814,3,11,3,3,0,10,2,3,6,3,1,2.0,0
-892,RM1113,36-45,Yes,Travel-Rarely,R&D,Med,Male,Mfg-Dir,Married,Upto 5k,No,38,903,2,3,3,81,3,2,2,4855,7653,4,11,3,1,2,7,2,3,5,2,1,4.0,0
+892,RM1113,36-45,Yes,Travel-Rarely,R&D,Med,Male,Mfg-Dir,Married,Upto 5k,No,38,903,2,3,3,81,3,2,2,4855,7653,4,11,3,1,2,7,2,3,5,2,1,4.0,1
 893,RM1120,36-45,No,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Married,5k-10k,No,38,1245,14,3,3,80,3,2,2,9924,12355,0,11,3,4,1,10,3,3,9,8,7,7.0,0
 894,RM1121,36-45,No,Travel-Rarely,Sales,Life-Sci,Female,Sales-Exec,Single,Upto 5k,No,38,437,16,3,2,90,3,2,2,4198,16379,2,12,3,2,0,8,5,4,3,2,1,2.0,0
 895,RM1162,36-45,No,Travel-Rarely,R&D,Med,Female,Mfg-Dir,Married,5k-10k,Yes,38,397,2,2,4,54,2,3,3,7756,14199,3,19,3,4,1,10,6,4,5,4,0,2.0,0
@@ -912,7 +912,7 @@
 916,RM305,36-45,No,Travel-Rarely,R&D,Med,Male,Healthcare-Rep,Divorced,5k-10k,No,39,1132,1,3,3,48,4,3,4,9613,10942,0,17,3,1,3,19,5,2,18,10,3,7.0,0
 917,RM315,36-45,No,Travel-Rarely,R&D,Med,Male,Mgr,Married,15k+,Yes,39,117,10,1,3,99,3,4,1,17068,5355,1,14,3,4,0,21,3,3,21,9,11,10.0,0
 918,RM327,36-45,No,Travel-Freq,R&D,Med,Male,Mgr,Married,15k+,No,39,672,7,2,3,54,2,5,4,19272,21141,1,15,3,1,1,21,2,3,21,9,13,3.0,0
-919,RM328,36-45,Yes,Travel-Rarely,Sales,Med,Female,Sales-Exec,Married,5k-10k,Yes,39,1162,3,2,4,41,3,2,3,5238,17778,4,18,3,1,0,12,3,2,1,0,0,0.0,1
+919,RM328,36-45,Yes,Travel-Rarely,Sales,Med,Female,Sales-Exec,Married,5k-10k,Yes,39,1162,3,2,4,41,3,2,3,5238,17778,4,18,3,1,0,12,3,2,1,0,0,0.0,0
 920,RM401,36-45,No,Travel-Freq,R&D,Life-Sci,Male,Mgr,Divorced,15k+,Yes,39,1218,1,1,2,52,3,5,3,19197,8213,1,14,3,3,1,21,3,3,21,8,1,6.0,0
 921,RM450,36-45,No,Travel-Freq,R&D,Life-Sci,Female,Lab-Tech,Married,Upto 5k,No,39,443,8,1,3,48,3,1,3,3755,17872,1,11,3,1,1,8,3,3,8,3,0,7.0,0
 922,RM527,36-45,No,Travel-Rarely,R&D,Tech-Deg,Female,Healthcare-Rep,Single,Upto 5k,No,39,408,2,4,4,80,2,2,3,4553,20978,1,11,3,1,0,20,4,3,20,7,11,10.0,0
@@ -969,7 +969,7 @@
 975,RM602,36-45,No,Travel-Freq,R&D,Med,Male,Lab-Tech,Single,5k-10k,No,40,720,16,4,1,51,2,2,3,5094,11983,6,14,3,4,0,10,6,3,1,0,0,0.0,0
 976,RM685,36-45,No,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Divorced,5k-10k,No,40,658,10,4,1,67,2,3,2,9705,20652,2,12,3,2,1,11,2,2,1,0,0,0.0,0
 977,RM692,36-45,No,Travel-Freq,R&D,Med,Male,Res-Sci,Divorced,Upto 5k,Yes,40,1469,9,4,4,35,3,1,2,3617,25063,8,14,3,4,1,3,2,3,1,1,0,0.0,0
-978,RM707,36-45,Yes,Non-Travel,Sales,Life-Sci,Female,Sales-Exec,Single,10k-15k,Yes,40,1479,24,3,2,100,4,4,2,13194,17071,4,16,3,4,0,22,2,2,1,0,0,0.0,1
+978,RM707,36-45,Yes,Non-Travel,Sales,Life-Sci,Female,Sales-Exec,Single,10k-15k,Yes,40,1479,24,3,2,100,4,4,2,13194,17071,4,16,3,4,0,22,2,2,1,0,0,0.0,0
 979,RM769,36-45,No,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Married,5k-10k,No,40,300,26,3,3,74,3,2,1,8396,22217,1,14,3,2,1,8,3,2,7,7,7,5.0,0
 980,RM786,36-45,No,Travel-Rarely,R&D,Tech-Deg,Male,Healthcare-Rep,Married,10k-15k,No,40,1492,20,4,1,61,3,3,4,10322,26542,4,20,4,4,1,14,6,3,11,10,11,1.0,0
 981,RM815,36-45,No,Travel-Rarely,R&D,Med,Male,Res-Dir,Single,15k+,No,40,1308,14,3,3,44,2,5,3,19626,17544,1,14,3,1,0,21,2,4,20,7,4,9.0,0
@@ -985,7 +985,7 @@
 991,RM1030,36-45,No,Non-Travel,R&D,Other,Male,Lab-Tech,Divorced,Upto 5k,No,40,663,9,4,3,81,3,2,3,3975,23099,3,11,3,3,2,11,2,4,8,7,0,7.0,0
 992,RM1041,36-45,No,Non-Travel,R&D,Med,Male,Res-Dir,Divorced,10k-15k,No,40,218,8,1,4,55,2,3,2,13757,25178,2,11,3,3,1,16,5,3,9,8,4,8.0,0
 993,RM1046,36-45,No,Travel-Rarely,R&D,Med,Male,Res-Sci,Divorced,Upto 5k,No,40,896,2,3,3,68,3,1,3,2345,8045,2,14,3,3,1,8,3,4,3,1,1,2.0,0
-994,RM1084,36-45,Yes,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Single,Upto 5k,No,40,676,9,4,4,86,3,1,1,2018,21831,3,14,3,2,0,15,3,1,5,4,1,0.0,1
+994,RM1084,36-45,Yes,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Single,Upto 5k,No,40,676,9,4,4,86,3,1,1,2018,21831,3,14,3,2,0,15,3,1,5,4,1,0.0,0
 995,RM1095,36-45,No,Travel-Rarely,Sales,Med,Male,Sales-Exec,Married,5k-10k,No,40,1342,9,2,1,47,3,2,1,5473,19345,0,12,3,4,0,9,5,4,8,4,7,1.0,0
 996,RM1097,36-45,No,Travel-Rarely,HR,Med,Male,Mgr,Single,15k+,Yes,40,898,6,2,3,38,3,4,4,16437,17381,1,21,4,4,0,21,2,3,21,7,7,7.0,0
 997,RM1099,36-45,No,Non-Travel,R&D,Life-Sci,Male,Healthcare-Rep,Divorced,Upto 5k,Yes,40,1142,8,2,4,72,3,2,4,4069,8841,3,18,3,3,0,8,2,3,2,2,2,2.0,0
@@ -1022,7 +1022,7 @@
 1028,RM467,36-45,No,Travel-Rarely,Sales,Life-Sci,Female,Mgr,Married,15k+,No,41,1276,2,5,2,91,3,4,1,16595,5626,7,16,3,2,1,22,2,3,18,16,11,8.0,0
 1029,RM536,36-45,No,Travel-Rarely,HR,HR,Male,Mgr,Divorced,15k+,No,41,427,10,4,2,73,2,5,4,19141,8861,3,15,3,2,3,23,2,2,21,6,12,6.0,0
 1030,RM539,36-45,No,Travel-Rarely,HR,HR,Male,Mgr,Married,15k+,No,41,314,1,3,4,59,2,5,3,19189,19562,1,12,3,2,1,22,3,3,22,7,2,10.0,0
-1031,RM668,36-45,Yes,Travel-Rarely,R&D,Life-Sci,Female,Lab-Tech,Divorced,Upto 5k,Yes,41,1085,2,4,2,57,1,1,4,2778,17725,4,13,3,3,1,10,1,2,7,7,1,0.0,1
+1031,RM668,36-45,Yes,Travel-Rarely,R&D,Life-Sci,Female,Lab-Tech,Divorced,Upto 5k,Yes,41,1085,2,4,2,57,1,1,4,2778,17725,4,13,3,3,1,10,1,2,7,7,1,0.0,0
 1032,RM687,36-45,No,Travel-Rarely,R&D,Med,Male,Lab-Tech,Single,Upto 5k,Yes,41,263,6,3,4,59,3,1,1,4721,3119,2,13,3,3,0,20,3,3,18,13,2,17.0,0
 1033,RM717,36-45,No,Travel-Freq,R&D,Med,Male,Res-Dir,Divorced,15k+,No,41,840,9,3,1,64,3,5,3,19419,3735,2,17,3,2,1,21,2,4,18,16,0,11.0,0
 1034,RM738,36-45,No,Travel-Rarely,R&D,Med,Female,Mfg-Dir,Single,5k-10k,No,41,549,7,2,4,42,3,2,3,5003,23371,6,14,3,2,0,8,6,3,2,2,2,1.0,0
@@ -1152,7 +1152,7 @@
 1158,RM1166,36-45,No,Travel-Freq,HR,HR,Male,HR,Married,5k-10k,Yes,44,602,1,5,1,37,3,2,4,5743,10503,4,11,3,3,0,14,3,3,10,7,0,2.0,0
 1159,RM1201,36-45,No,Travel-Rarely,HR,Life-Sci,Female,HR,Divorced,Upto 5k,Yes,44,528,1,3,3,44,3,1,4,3195,4167,4,18,3,1,3,8,2,3,2,2,2,2.0,0
 1160,RM1215,36-45,No,Travel-Rarely,R&D,Life-Sci,Female,Healthcare-Rep,Married,5k-10k,Yes,44,921,2,3,3,96,4,3,4,7879,14810,1,19,3,2,1,9,2,3,8,7,6,7.0,0
-1161,RM1280,36-45,Yes,Travel-Freq,R&D,Med,Male,Res-Sci,Divorced,Upto 5k,Yes,44,429,1,2,3,99,3,1,2,2342,11092,1,12,3,3,3,6,2,2,5,3,2,3.0,1
+1161,RM1280,36-45,Yes,Travel-Freq,R&D,Med,Male,Res-Sci,Divorced,Upto 5k,Yes,44,429,1,2,3,99,3,1,2,2342,11092,1,12,3,3,3,6,2,2,5,3,2,3.0,0
 1162,RM1353,36-45,No,Travel-Rarely,R&D,Life-Sci,Male,Healthcare-Rep,Married,5k-10k,No,44,170,1,4,2,78,4,2,1,5033,9364,2,15,3,4,1,10,5,3,2,0,2,2.0,0
 1163,RM1436,36-45,No,Travel-Rarely,R&D,Med,Male,Res-Sci,Single,Upto 5k,Yes,44,1037,1,3,2,42,3,1,4,2436,13422,6,12,3,3,0,6,2,3,4,3,1,2.0,0
 1164,RM068,36-45,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Divorced,5k-10k,No,45,1339,7,3,2,59,3,3,1,9724,18787,2,17,3,3,1,25,2,3,1,0,0,0.0,0
@@ -1180,7 +1180,7 @@
 1186,RM760,36-45,No,Travel-Rarely,HR,Med,Male,HR,Single,Upto 5k,No,45,788,24,4,2,36,3,1,2,2177,8318,1,16,3,1,0,6,3,3,6,3,0,4.0,0
 1187,RM806,36-45,No,Non-Travel,Sales,Life-Sci,Female,Sales-Exec,Married,5k-10k,No,45,1050,9,4,2,65,2,2,3,5593,17970,1,13,3,4,1,15,2,3,15,10,4,12.0,0
 1188,RM855,36-45,No,Travel-Rarely,R&D,Med,Female,Res-Sci,Married,Upto 5k,Yes,45,1457,7,3,1,83,3,1,3,4477,20100,4,19,3,3,1,7,2,2,3,2,0,2.0,0
-1189,RM914,36-45,Yes,Travel-Rarely,Sales,Mktg,Female,Mgr,Single,15k+,Yes,45,1449,2,3,1,94,1,5,2,18824,2493,2,16,3,1,0,26,2,3,24,10,1,11.0,1
+1189,RM914,36-45,Yes,Travel-Rarely,Sales,Mktg,Female,Mgr,Single,15k+,Yes,45,1449,2,3,1,94,1,5,2,18824,2493,2,16,3,1,0,26,2,3,24,10,1,11.0,0
 1190,RM937,36-45,No,Travel-Freq,R&D,Med,Female,Mgr,Single,15k+,No,45,364,25,3,2,83,3,5,2,18061,13035,3,22,4,3,0,22,4,3,0,0,0,0.0,0
 1191,RM1035,36-45,No,Travel-Rarely,R&D,Med,Male,Healthcare-Rep,Divorced,10k-15k,Yes,45,1038,20,3,2,95,1,3,1,10851,19863,2,18,3,2,1,24,2,3,7,7,0,7.0,0
 1192,RM1038,36-45,No,Travel-Rarely,R&D,Tech-Deg,Male,Mfg-Dir,Married,5k-10k,Yes,45,1448,29,3,2,55,3,3,4,9380,14720,4,18,3,4,2,10,4,4,3,1,1,2.0,0
@@ -1199,7 +1199,7 @@
 1205,RM030,46-55,No,Travel-Rarely,Sales,Mktg,Female,Mgr,Single,15k+,No,46,705,2,4,2,83,3,5,1,18947,22822,3,12,3,4,0,22,2,2,2,2,2,4.118060435699227,0
 1206,RM049,46-55,No,Travel-Freq,Sales,Mktg,Male,Sales-Exec,Single,5k-10k,Yes,46,1211,5,4,1,98,3,2,4,5772,20445,4,21,4,3,0,14,4,3,9,6,0,8.0,0
 1207,RM080,46-55,No,Travel-Rarely,HR,Med,Male,HR,Divorced,5k-10k,Yes,46,945,5,2,2,80,3,2,2,5021,10425,8,22,4,4,1,16,2,3,4,2,0,2.0,0
-1208,RM090,46-55,Yes,Travel-Rarely,Sales,Med,Male,Sales-Exec,Single,5k-10k,No,46,669,9,2,3,64,2,3,4,9619,13596,1,16,3,4,0,9,3,3,9,8,4,7.0,1
+1208,RM090,46-55,Yes,Travel-Rarely,Sales,Med,Male,Sales-Exec,Single,5k-10k,No,46,669,9,2,3,64,2,3,4,9619,13596,1,16,3,4,0,9,3,3,9,8,4,7.0,0
 1209,RM094,46-55,No,Travel-Freq,R&D,Med,Male,Healthcare-Rep,Married,10k-15k,Yes,46,638,1,3,3,40,2,3,1,10673,3142,2,13,3,3,1,21,5,2,10,9,9,5.0,0
 1210,RM179,46-55,No,Travel-Rarely,Sales,Mktg,Female,Sales-Exec,Divorced,10k-15k,No,46,526,1,2,2,92,3,3,1,10453,2137,1,25,4,3,3,24,2,3,24,13,15,7.0,0
 1211,RM210,46-55,No,Travel-Rarely,R&D,Med,Male,Healthcare-Rep,Divorced,5k-10k,No,46,644,1,4,4,97,3,3,1,9396,12368,7,16,3,3,1,17,3,3,4,2,0,4.118060435699227,0
@@ -1225,7 +1225,7 @@
 1231,RM1236,46-55,No,Travel-Rarely,Sales,Life-Sci,Male,Sales-Exec,Divorced,10k-15k,Yes,46,1277,2,3,3,74,3,3,4,10368,5596,4,12,3,2,1,13,5,2,10,6,0,3.0,0
 1232,RM1278,46-55,No,Travel-Rarely,R&D,Med,Male,Res-Dir,Divorced,15k+,Yes,46,734,2,4,3,46,3,5,4,19328,14218,7,17,3,3,1,24,3,3,2,1,2,2.0,0
 1233,RM1286,46-55,No,Non-Travel,Sales,Life-Sci,Male,Sales-Exec,Single,5k-10k,No,46,849,26,2,2,98,2,2,2,7991,25166,8,15,3,3,0,6,3,3,2,2,2,2.0,0
-1234,RM1299,46-55,Yes,Travel-Rarely,R&D,Med,Female,Healthcare-Rep,Married,5k-10k,No,46,261,21,2,4,66,3,2,2,8926,10842,4,22,4,4,1,13,2,4,9,7,3,7.0,1
+1234,RM1299,46-55,Yes,Travel-Rarely,R&D,Med,Female,Healthcare-Rep,Married,5k-10k,No,46,261,21,2,4,66,3,2,2,8926,10842,4,22,4,4,1,13,2,4,9,7,3,7.0,0
 1235,RM1323,46-55,No,Travel-Rarely,R&D,Life-Sci,Male,Mfg-Dir,Divorced,5k-10k,No,46,706,2,2,4,82,3,3,4,8578,19989,3,14,3,3,1,12,4,2,9,8,4,7.0,0
 1236,RM1328,46-55,No,Travel-Rarely,Sales,Tech-Deg,Female,Sales-Exec,Divorced,10k-15k,No,46,1319,3,3,1,45,4,4,1,13225,7739,2,12,3,4,1,25,5,3,19,17,2,8.0,0
 1237,RM1334,46-55,Yes,Travel-Rarely,Sales,Life-Sci,Female,Sales-Exec,Married,5k-10k,No,46,1254,10,3,3,64,3,3,2,7314,14011,5,21,4,3,3,14,2,3,8,7,0,7.0,1
@@ -1269,7 +1269,7 @@
 1275,RM1104,46-55,No,Travel-Rarely,Sales,Life-Sci,Female,Sales-Exec,Divorced,5k-10k,No,48,492,16,4,3,96,3,2,3,6439,13693,8,14,3,3,1,18,2,3,8,7,7,7.0,0
 1276,RM1115,46-55,No,Travel-Rarely,R&D,Other,Female,Res-Sci,Married,Upto 5k,No,48,1108,15,4,3,65,3,1,1,2367,16530,8,12,3,4,1,10,3,2,8,2,7,6.0,0
 1277,RM1167,46-55,No,Travel-Freq,R&D,Med,Male,Mgr,Married,15k+,No,48,365,4,5,3,89,2,4,4,15202,5602,2,25,4,2,1,23,3,3,2,2,2,2.0,0
-1278,RM1205,46-55,Yes,Travel-Freq,Sales,Med,Female,Sales-Rep,Married,Upto 5k,Yes,48,708,7,2,4,95,3,1,3,2655,11740,2,11,3,3,2,19,3,3,9,7,7,7.0,0
+1278,RM1205,46-55,Yes,Travel-Freq,Sales,Med,Female,Sales-Rep,Married,Upto 5k,Yes,48,708,7,2,4,95,3,1,3,2655,11740,2,11,3,3,2,19,3,3,9,7,7,7.0,1
 1279,RM1332,46-55,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Dir,Married,15k+,No,48,1224,10,3,4,91,2,5,2,19665,13583,4,12,3,4,0,29,3,3,22,10,12,9.0,0
 1280,RM1352,46-55,No,Travel-Freq,R&D,Med,Female,Mgr,Divorced,15k+,No,48,117,22,3,4,58,3,4,4,17174,2437,3,11,3,2,1,24,3,3,22,17,4,7.0,0
 1281,RM002,46-55,No,Travel-Freq,R&D,Life-Sci,Male,Res-Sci,Married,5k-10k,No,49,279,8,1,3,61,2,2,2,5130,24907,1,23,4,4,1,10,3,3,10,7,1,7.0,0
@@ -1279,7 +1279,7 @@
 1285,RM317,46-55,No,Travel-Rarely,R&D,Tech-Deg,Female,Healthcare-Rep,Single,10k-15k,Yes,49,1091,1,2,3,90,2,4,3,13964,17810,7,12,3,4,0,25,2,3,7,1,0,7.0,0
 1286,RM376,46-55,No,Travel-Rarely,R&D,Other,Male,Healthcare-Rep,Single,10k-15k,No,49,1261,7,3,2,31,2,3,3,10965,12066,8,24,4,3,0,26,2,3,5,2,0,0.0,0
 1287,RM474,46-55,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Dir,Divorced,15k+,Yes,49,1245,18,4,4,58,2,5,3,19502,2125,1,17,3,3,1,31,5,3,31,9,0,9.0,0
-1288,RM608,46-55,Yes,Travel-Rarely,Sales,Mktg,Female,Sales-Exec,Married,5k-10k,No,49,1184,11,3,3,43,3,3,4,7654,5860,1,18,3,1,2,9,3,4,9,8,7,7.0,0
+1288,RM608,46-55,Yes,Travel-Rarely,Sales,Mktg,Female,Sales-Exec,Married,5k-10k,No,49,1184,11,3,3,43,3,3,4,7654,5860,1,18,3,1,2,9,3,4,9,8,7,7.0,1
 1289,RM640,46-55,No,Travel-Rarely,R&D,Tech-Deg,Female,Res-Sci,Married,Upto 5k,No,49,1418,1,3,3,36,3,1,1,3580,10554,2,16,3,2,1,7,2,3,4,2,0,2.0,0
 1290,RM678,46-55,No,Travel-Rarely,R&D,Other,Female,Lab-Tech,Married,5k-10k,No,49,527,8,2,1,51,3,3,2,7403,22477,4,11,3,3,1,29,3,2,26,9,1,7.0,0
 1291,RM822,46-55,No,Travel-Rarely,Sales,Tech-Deg,Male,Sales-Exec,Married,10k-15k,No,49,174,8,4,4,56,2,4,2,13120,11879,6,17,3,2,1,22,3,3,9,8,2,3.0,0
@@ -1324,7 +1324,7 @@
 1331,RM1127,46-55,No,Travel-Rarely,Sales,Mktg,Male,Mgr,Married,15k+,Yes,50,264,9,3,3,59,3,5,3,19331,19519,4,16,3,3,1,27,2,3,1,0,0,0.0,0
 1332,RM1139,46-55,No,Travel-Freq,R&D,Med,Male,Healthcare-Rep,Married,10k-15k,Yes,50,1234,20,5,2,41,3,4,3,11245,20689,2,15,3,3,1,32,3,3,30,8,12,13.0,0
 1333,RM1178,46-55,No,Travel-Rarely,R&D,Life-Sci,Female,Res-Dir,Divorced,10k-15k,No,50,813,17,5,4,50,2,3,1,13269,21981,5,15,3,3,3,19,3,3,14,11,1,11.0,0
-1334,RM1453,46-55,Yes,Travel-Freq,Sales,Life-Sci,Male,Sales-Exec,Divorced,5k-10k,No,50,878,1,4,2,94,3,2,3,6728,14255,7,12,3,4,2,12,3,3,6,3,0,1.0,1
+1334,RM1453,46-55,Yes,Travel-Freq,Sales,Life-Sci,Male,Sales-Exec,Divorced,5k-10k,No,50,878,1,4,2,94,3,2,3,6728,14255,7,12,3,4,2,12,3,3,6,3,0,1.0,0
 1335,RM1462,46-55,Yes,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Divorced,10k-15k,Yes,50,410,28,3,4,39,2,3,1,10854,16586,4,13,3,2,1,20,3,3,3,2,2,0.0,1
 1337,RM088,46-55,No,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Married,Upto 5k,No,51,432,9,4,4,96,3,1,4,2075,18725,3,23,4,2,2,10,4,3,4,2,0,3.0,0
 1338,RM092,46-55,No,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Single,5k-10k,Yes,51,632,21,4,3,71,3,2,4,5441,8423,0,22,4,4,0,11,2,1,10,7,1,0.0,0
@@ -1407,14 +1407,14 @@
 1415,RM284,46-55,No,Travel-Rarely,R&D,Tech-Deg,Male,Lab-Tech,Married,5k-10k,Yes,55,147,20,2,2,37,3,2,4,5415,15972,3,19,3,4,1,12,4,3,10,7,0,8.0,0
 1416,RM380,46-55,No,Travel-Rarely,R&D,Life-Sci,Female,Mgr,Single,15k+,Yes,55,1311,2,3,3,97,3,4,4,16659,23258,2,13,3,3,0,30,2,3,5,4,1,2.0,0
 1417,RM446,46-55,No,Travel-Rarely,Sales,Life-Sci,Female,Mgr,Single,15k+,No,55,1117,18,5,1,83,3,4,2,16835,9873,3,23,4,4,0,37,2,3,10,9,7,7.0,0
-1418,RM569,46-55,Yes,Travel-Rarely,R&D,Med,Male,Mgr,Married,15k+,Yes,55,725,2,3,4,78,3,5,1,19859,21199,5,13,3,4,1,24,2,3,5,2,1,4.0,1
+1418,RM569,46-55,Yes,Travel-Rarely,R&D,Med,Male,Mgr,Married,15k+,Yes,55,725,2,3,4,78,3,5,1,19859,21199,5,13,3,4,1,24,2,3,5,2,1,4.0,0
 1419,RM609,46-55,Yes,Travel-Rarely,Sales,Med,Male,Sales-Exec,Single,5k-10k,No,55,436,2,1,3,37,3,2,4,5160,21519,4,16,3,3,0,12,3,2,9,7,7,3.0,1
 1420,RM746,46-55,No,Travel-Freq,R&D,Med,Male,Healthcare-Rep,Married,5k-10k,Yes,55,135,18,4,3,62,3,2,2,6385,12992,3,14,3,4,2,17,3,3,8,7,6,7.0,0
 1421,RM775,46-55,No,Non-Travel,R&D,Med,Male,Mgr,Single,15k+,No,55,444,2,1,3,40,2,4,1,16756,17323,7,15,3,2,0,31,3,4,9,7,6,2.0,0
 1422,RM788,46-55,No,Travel-Freq,R&D,Life-Sci,Male,Mfg-Dir,Married,10k-15k,No,55,1091,2,1,4,65,3,3,2,10976,15813,3,18,3,2,1,23,4,3,3,2,1,2.0,0
 1423,RM915,46-55,No,Non-Travel,R&D,Med,Male,Healthcare-Rep,Divorced,10k-15k,Yes,55,177,8,1,4,37,2,4,2,13577,25592,1,15,3,4,1,34,3,3,33,9,15,0.0,0
 1424,RM956,46-55,No,Travel-Rarely,R&D,Med,Female,Mgr,Married,15k+,No,55,282,2,2,4,58,1,5,3,19187,6992,4,14,3,4,1,23,5,3,19,9,9,11.0,0
-1425,RM976,46-55,Yes,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Single,10k-15k,Yes,55,267,13,4,1,85,4,4,3,13695,9277,6,17,3,3,0,24,2,2,19,7,3,8.0,0
+1425,RM976,46-55,Yes,Travel-Rarely,Sales,Mktg,Male,Sales-Exec,Single,10k-15k,Yes,55,267,13,4,1,85,4,4,3,13695,9277,6,17,3,3,0,24,2,2,19,7,3,8.0,1
 1426,RM1011,46-55,No,Travel-Rarely,R&D,Med,Male,Res-Dir,Divorced,10k-15k,No,55,1136,1,4,2,81,4,4,4,14732,12414,2,13,3,4,2,31,4,4,7,7,0,0.0,0
 1427,RM1066,46-55,No,Travel-Rarely,R&D,Life-Sci,Male,Healthcare-Rep,Married,Upto 5k,Yes,55,1229,4,4,4,30,3,2,3,4035,16143,0,16,3,2,0,4,2,3,3,2,1,2.0,0
 1428,RM1117,46-55,No,Travel-Rarely,Sales,Mktg,Male,Mgr,Married,15k+,No,55,685,26,5,3,60,2,5,4,19586,23037,1,21,4,3,1,36,3,3,36,6,2,13.0,0
@@ -1435,7 +1435,7 @@
 1443,RM1355,55+,Yes,Travel-Rarely,R&D,Life-Sci,Male,Lab-Tech,Single,Upto 5k,No,56,1162,24,2,1,97,3,1,4,2587,10261,1,16,3,4,0,5,3,3,4,2,1,0.0,1
 1444,RM1372,55+,No,Travel-Rarely,Sales,Mktg,Female,Sales-Exec,Married,5k-10k,No,56,1443,11,5,4,89,2,2,1,5380,20328,4,16,3,3,1,6,3,3,0,0,0,0.0,0
 1445,RM1442,55+,No,Non-Travel,R&D,Life-Sci,Male,Healthcare-Rep,Divorced,5k-10k,No,56,667,1,4,3,57,3,2,3,6306,26236,1,21,4,1,1,13,2,2,13,12,1,9.0,0
-1446,RM1445,55+,Yes,Travel-Rarely,R&D,Tech-Deg,Male,Lab-Tech,Married,Upto 5k,No,56,310,7,2,4,72,3,1,3,2339,3666,8,11,3,4,1,14,4,1,10,9,9,8.0,0
+1446,RM1445,55+,Yes,Travel-Rarely,R&D,Tech-Deg,Male,Lab-Tech,Married,Upto 5k,No,56,310,7,2,4,72,3,1,3,2339,3666,8,11,3,4,1,14,4,1,10,9,9,8.0,1
 1447,RM164,55+,No,Travel-Rarely,R&D,Life-Sci,Male,Healthcare-Rep,Divorced,5k-10k,Yes,57,334,24,2,3,83,4,3,4,9439,23402,3,16,3,2,1,12,2,1,5,3,1,4.0,0
 1448,RM361,55+,No,Travel-Rarely,R&D,Med,Male,Healthcare-Rep,Married,5k-10k,No,57,593,1,4,4,88,3,2,3,6755,2967,2,11,3,3,0,15,2,3,3,2,1,4.118060435699227,0
 1449,RM425,55+,No,Travel-Rarely,Sales,Mktg,Male,Mgr,Divorced,10k-15k,No,57,210,29,3,1,56,2,4,4,14118,22102,3,12,3,3,1,32,3,2,1,0,0,0.0,0
@@ -1447,7 +1447,7 @@
 1455,RM596,55+,Yes,Travel-Rarely,R&D,Life-Sci,Male,Res-Dir,Single,15k+,Yes,58,286,2,4,4,31,3,5,2,19246,25761,7,12,3,4,0,40,2,3,31,15,13,8.0,1
 1456,RM661,55+,Yes,Travel-Freq,R&D,Life-Sci,Male,Lab-Tech,Divorced,Upto 5k,Yes,58,781,2,1,4,57,2,1,4,2380,13384,9,14,3,4,1,3,3,2,1,0,0,0.0,1
 1457,RM675,55+,No,Travel-Rarely,R&D,Tech-Deg,Female,Healthcare-Rep,Divorced,10k-15k,Yes,58,1272,5,3,3,37,2,3,2,10552,9255,2,13,3,4,1,24,3,3,6,0,0,4.0,0
-1458,RM701,55+,Yes,Travel-Rarely,R&D,Tech-Deg,Male,Res-Sci,Single,Upto 5k,No,58,289,2,3,4,51,3,1,3,2479,26227,4,24,4,1,0,7,4,3,1,0,0,0.0,0
+1458,RM701,55+,Yes,Travel-Rarely,R&D,Tech-Deg,Male,Res-Sci,Single,Upto 5k,No,58,289,2,3,4,51,3,1,3,2479,26227,4,24,4,1,0,7,4,3,1,0,0,0.0,1
 1459,RM939,55+,No,Travel-Rarely,R&D,Life-Sci,Male,Res-Sci,Divorced,Upto 5k,No,58,848,23,4,1,88,3,1,3,2372,26076,1,12,3,4,2,2,3,3,2,2,2,2.0,0
 1460,RM967,55+,Yes,Travel-Rarely,R&D,Med,Female,Mfg-Dir,Married,10k-15k,Yes,58,601,7,4,3,53,2,3,1,10008,12023,7,14,3,4,0,31,0,2,10,9,5,9.0,1
 1461,RM1010,55+,No,Travel-Rarely,R&D,Med,Female,Res-Dir,Married,15k+,Yes,58,1055,1,3,4,76,3,5,1,19701,22456,3,21,4,3,1,32,3,3,9,8,1,5.0,0
